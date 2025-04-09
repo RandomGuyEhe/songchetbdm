@@ -25,7 +25,7 @@ This project aims to leverage machine learning and explainability techniques to 
 
 ## Dataset
 
-### Kaggle
+### Dataset 1: Kaggle
 
 The dataset used for this project comes from Kaggle at this link [[4](#ref4)] and it is stored in [raw_data](/raw_data). 
 
@@ -44,6 +44,9 @@ This dataset is a csv file and it contains 5110 rows and 12 columns, which are:
 - bmi: body mass index
 - smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
 - stroke: 1 if the patient had a stroke or 0 if not
+
+### Dataset 2: Image Process Dataset (with Normal & Stroke)
+Direct link to dataset: https://www.kaggle.com/datasets/alymaher/brain-stroke-ct-scan-image. Main dataset used from "Train' folder, with 889 "Normal" entries and 961 "Stroke" entries.
 
 ## Methods
 
