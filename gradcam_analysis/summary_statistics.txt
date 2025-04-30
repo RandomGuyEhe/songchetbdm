@@ -1,0 +1,22 @@
+BRAIN STROKE CT SCAN ANALYSIS - TRAINING SET SUMMARY
+==================================================
+
+Total Images Processed: 1843
+Class Distribution:
+  - Normal: 1087 images
+  - Stroke: 756 images
+
+Overall Accuracy: 1.0000
+Class-wise Accuracy:
+  - Normal: 1.0000
+  - Stroke: 1.0000
+
+Average Prediction Confidence:
+  - Normal: 0.9995
+  - Stroke: 0.9978
+
+Average Model Agreement (1=full agreement):
+  - Normal: 1.0000
+  - Stroke: 0.9991
+
+Processing Time: 1498.32 seconds

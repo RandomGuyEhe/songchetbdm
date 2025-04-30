@@ -1,0 +1,4 @@
+- chung toi ko muon knn lam best model nua, chung toi muon su dung ensemble-enhanced-model nhu xgbosst, lightgbm, catboost, randomforest, decision tree.
+- toi muon data visualization
+- toi muon in ra bieu do tuong quan ve auc, accuracy, f1, recall
+- doi cho toi library tu tensorflow sang pytorch de toi chay dc code tren gpu roi

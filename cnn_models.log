@@ -1,0 +1,187 @@
+2025-04-11 01:23:04,260 - __main__ - INFO - Training new models...
+2025-04-11 01:23:04,260 - __main__ - INFO - Training DENSENET121 model...
+2025-04-11 01:23:04,441 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-11 01:23:04,644 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-04-11 01:23:21,062 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-04-11 01:23:25,765 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-11 08:49:54,231 - __main__ - INFO - Training new models...
+2025-04-11 08:49:54,242 - __main__ - INFO - Training DENSENET121 model...
+2025-04-11 08:49:54,389 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-11 08:49:54,570 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-04-11 08:49:58,631 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-04-11 08:50:03,480 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-11 10:44:38,657 - __main__ - INFO - Model saved to models\stroke_densenet121.keras
+2025-04-11 10:44:38,944 - __main__ - INFO - Evaluating DENSENET121 model...
+2025-04-11 10:48:16,537 - __main__ - INFO - Accuracy: 0.9646
+2025-04-11 10:48:16,538 - __main__ - INFO - Loss: 0.0820
+2025-04-11 10:48:16,538 - __main__ - INFO - Confusion Matrix:
+[[2531  132]
+ [  39 2127]]
+2025-04-11 10:48:16,538 - __main__ - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+      Normal       0.98      0.95      0.97      2663
+      Stroke       0.94      0.98      0.96      2166
+
+    accuracy                           0.96      4829
+   macro avg       0.96      0.97      0.96      4829
+weighted avg       0.97      0.96      0.96      4829
+
+2025-04-11 10:48:16,538 - __main__ - INFO - Training RESNET50 model...
+2025-04-11 13:03:45,301 - __main__ - INFO - Model saved to models\stroke_resnet50.keras
+2025-04-11 13:03:45,847 - __main__ - INFO - Evaluating RESNET50 model...
+2025-04-11 13:09:03,010 - __main__ - INFO - Accuracy: 0.9321
+2025-04-11 13:09:03,026 - __main__ - INFO - Loss: 0.1860
+2025-04-11 13:09:03,026 - __main__ - INFO - Confusion Matrix:
+[[2382  281]
+ [  47 2119]]
+2025-04-11 13:09:03,026 - __main__ - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+      Normal       0.98      0.89      0.94      2663
+      Stroke       0.88      0.98      0.93      2166
+
+    accuracy                           0.93      4829
+   macro avg       0.93      0.94      0.93      4829
+weighted avg       0.94      0.93      0.93      4829
+
+2025-04-11 13:09:03,035 - __main__ - INFO - Training XCEPTION model...
+2025-04-11 16:10:43,679 - __main__ - INFO - Model saved to models\stroke_xception.keras
+2025-04-11 16:10:44,203 - __main__ - INFO - Evaluating XCEPTION model...
+2025-04-11 16:16:22,136 - __main__ - INFO - Accuracy: 0.9385
+2025-04-11 16:16:22,137 - __main__ - INFO - Loss: 0.1688
+2025-04-11 16:16:22,139 - __main__ - INFO - Confusion Matrix:
+[[2370  293]
+ [   4 2162]]
+2025-04-11 16:16:22,140 - __main__ - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+      Normal       1.00      0.89      0.94      2663
+      Stroke       0.88      1.00      0.94      2166
+
+    accuracy                           0.94      4829
+   macro avg       0.94      0.94      0.94      4829
+weighted avg       0.95      0.94      0.94      4829
+
+2025-04-11 16:16:22,143 - __main__ - INFO - Predicting on Dataset\Normal\1 (1).jpg...
+2025-04-11 16:16:31,283 - __main__ - ERROR - Error predicting on Dataset\Normal\1 (1).jpg: 'tensorflow.python.framework.ops.EagerTensor' object does not support item assignment
+2025-04-11 16:16:31,285 - __main__ - INFO - Predicting on Dataset\Stroke\2 (1).jpg...
+2025-04-11 16:16:32,687 - __main__ - ERROR - Error predicting on Dataset\Stroke\2 (1).jpg: 'tensorflow.python.framework.ops.EagerTensor' object does not support item assignment
+2025-04-11 17:46:25,650 - __main__ - INFO - Using device: cuda
+2025-04-11 17:46:25,660 - __main__ - INFO - Training new models...
+2025-04-11 17:46:25,662 - __main__ - INFO - Training DENSENET121 model...
+2025-04-11 18:24:37,013 - __main__ - INFO - Using device: cuda
+2025-04-11 18:24:37,021 - __main__ - INFO - Training new models...
+2025-04-11 18:24:37,022 - __main__ - INFO - Training DENSENET121 model...
+2025-04-11 18:55:35,461 - __main__ - INFO - Models exist in keras format, loading and converting to pickle...
+2025-04-11 18:55:35,461 - __main__ - INFO - Loading densenet121 model from keras: models\stroke_densenet121.keras
+2025-04-11 18:55:35,972 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-11 18:55:36,139 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2025-04-11 18:56:30,114 - __main__ - INFO - Models exist in keras format, loading and converting to pickle...
+2025-04-11 18:56:30,115 - __main__ - INFO - Loading densenet121 model from keras: models\stroke_densenet121.keras
+2025-04-11 19:06:35,876 - __main__ - INFO - Models exist in keras format, loading and converting to pickle...
+2025-04-11 19:06:35,877 - __main__ - INFO - Loading densenet121 model from keras: models\stroke_densenet121.keras
+2025-04-11 19:06:36,124 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-11 19:06:36,231 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2025-04-11 19:07:56,094 - __main__ - INFO - Successfully loaded densenet121 model from keras
+2025-04-11 19:07:56,094 - __main__ - INFO - Loading resnet50 model from keras: models\stroke_resnet50.keras
+2025-04-11 19:09:52,685 - __main__ - INFO - Successfully loaded resnet50 model from keras
+2025-04-11 19:09:52,685 - __main__ - INFO - Loading xception model from keras: models\stroke_xception.keras
+2025-04-11 19:11:10,257 - __main__ - INFO - Successfully loaded xception model from keras
+2025-04-11 19:11:10,257 - __main__ - INFO - Saving densenet121 model to pickle: models\stroke_densenet121.pkl
+2025-04-11 19:11:13,862 - __main__ - INFO - Successfully saved densenet121 model to pickle
+2025-04-11 19:11:13,862 - __main__ - INFO - Saving resnet50 model to pickle: models\stroke_resnet50.pkl
+2025-04-11 19:11:19,593 - __main__ - INFO - Successfully saved resnet50 model to pickle
+2025-04-11 19:11:19,593 - __main__ - INFO - Saving xception model to pickle: models\stroke_xception.pkl
+2025-04-11 19:11:24,450 - __main__ - INFO - Successfully saved xception model to pickle
+2025-04-11 19:11:24,450 - __main__ - INFO - Predicting on Dataset\Normal\1 (1).jpg...
+2025-04-11 19:11:30,572 - __main__ - INFO - Predicted class: Normal
+2025-04-11 19:11:30,572 - __main__ - INFO - Confidence: 0.8866
+2025-04-11 19:11:30,572 - __main__ - INFO - densenet121: Normal=0.9720, Stroke=0.0280
+2025-04-11 19:11:30,572 - __main__ - INFO - resnet50: Normal=0.9760, Stroke=0.0240
+2025-04-11 19:11:30,577 - __main__ - INFO - xception: Normal=0.7117, Stroke=0.2883
+2025-04-11 19:11:30,579 - __main__ - INFO - Potentially affected brain areas:
+2025-04-11 19:11:30,579 - __main__ - INFO - - Right hemisphere
+2025-04-11 19:11:30,580 - __main__ - INFO - - Anterior region
+2025-04-11 19:11:30,580 - __main__ - INFO - - Possibly parietal lobe
+2025-04-11 19:11:30,582 - __main__ - INFO - - Note: This is a preliminary estimate and should be confirmed by a medical professional
+2025-04-11 19:11:30,593 - __main__ - INFO - Heatmap saved to models\visualizations\1 (1)_heatmap.png
+2025-04-11 19:11:30,593 - __main__ - INFO - Predicting on Dataset\Stroke\2 (1).jpg...
+2025-04-11 19:11:32,282 - __main__ - INFO - Predicted class: Stroke
+2025-04-11 19:11:32,298 - __main__ - INFO - Confidence: 0.7100
+2025-04-11 19:11:32,298 - __main__ - INFO - densenet121: Normal=0.8700, Stroke=0.1300
+2025-04-11 19:11:32,298 - __main__ - INFO - resnet50: Normal=0.0001, Stroke=0.9999
+2025-04-11 19:11:32,303 - __main__ - INFO - xception: Normal=0.0000, Stroke=1.0000
+2025-04-11 19:11:32,305 - __main__ - INFO - Potentially affected brain areas:
+2025-04-11 19:11:32,307 - __main__ - INFO - - Left hemisphere
+2025-04-11 19:11:32,307 - __main__ - INFO - - Anterior region
+2025-04-11 19:11:32,309 - __main__ - INFO - - Possibly parietal lobe
+2025-04-11 19:11:32,311 - __main__ - INFO - - Note: This is a preliminary estimate and should be confirmed by a medical professional
+2025-04-11 19:11:32,317 - __main__ - INFO - Heatmap saved to models\visualizations\2 (1)_heatmap.png
+2025-04-11 19:11:32,318 - __main__ - INFO - Process completed successfully!
+2025-04-11 19:28:39,932 - __main__ - INFO - Models already exist in pickle format, loading them...
+2025-04-11 19:28:39,932 - __main__ - INFO - Loading densenet121 model from pickle: models\stroke_densenet121.pkl
+2025-04-11 19:28:40,648 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-11 19:28:40,766 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2025-04-11 19:30:00,202 - __main__ - INFO - Successfully loaded densenet121 model from pickle
+2025-04-11 19:30:00,202 - __main__ - INFO - Loading resnet50 model from pickle: models\stroke_resnet50.pkl
+2025-04-11 19:31:49,987 - __main__ - INFO - Successfully loaded resnet50 model from pickle
+2025-04-11 19:31:49,989 - __main__ - INFO - Loading xception model from pickle: models\stroke_xception.pkl
+2025-04-11 19:32:57,565 - __main__ - INFO - Successfully loaded xception model from pickle
+2025-04-11 19:32:57,565 - __main__ - INFO - Predicting on Dataset\Normal\1 (1).jpg...
+2025-04-11 19:33:03,117 - __main__ - INFO - Predicted class: Normal
+2025-04-11 19:33:03,117 - __main__ - INFO - Confidence: 0.8866
+2025-04-11 19:33:03,117 - __main__ - INFO - densenet121: Normal=0.9720, Stroke=0.0280
+2025-04-11 19:33:03,117 - __main__ - INFO - resnet50: Normal=0.9760, Stroke=0.0240
+2025-04-11 19:33:03,128 - __main__ - INFO - xception: Normal=0.7117, Stroke=0.2883
+2025-04-11 19:33:03,129 - __main__ - INFO - Potentially affected brain areas:
+2025-04-11 19:33:03,131 - __main__ - INFO - - Right hemisphere
+2025-04-11 19:33:03,132 - __main__ - INFO - - Anterior region
+2025-04-11 19:33:03,133 - __main__ - INFO - - Possibly parietal lobe
+2025-04-11 19:33:03,134 - __main__ - INFO - - Note: This is a preliminary estimate and should be confirmed by a medical professional
+2025-04-11 19:33:03,142 - __main__ - INFO - Heatmap saved to models\visualizations\1 (1)_heatmap.png
+2025-04-11 19:33:03,142 - __main__ - INFO - Predicting on Dataset\Stroke\2 (1).jpg...
+2025-04-11 19:33:04,836 - __main__ - INFO - Predicted class: Stroke
+2025-04-11 19:33:04,836 - __main__ - INFO - Confidence: 0.7100
+2025-04-11 19:33:04,851 - __main__ - INFO - densenet121: Normal=0.8700, Stroke=0.1300
+2025-04-11 19:33:04,851 - __main__ - INFO - resnet50: Normal=0.0001, Stroke=0.9999
+2025-04-11 19:33:04,853 - __main__ - INFO - xception: Normal=0.0000, Stroke=1.0000
+2025-04-11 19:33:04,854 - __main__ - INFO - Potentially affected brain areas:
+2025-04-11 19:33:04,855 - __main__ - INFO - - Left hemisphere
+2025-04-11 19:33:04,857 - __main__ - INFO - - Anterior region
+2025-04-11 19:33:04,857 - __main__ - INFO - - Possibly parietal lobe
+2025-04-11 19:33:04,858 - __main__ - INFO - - Note: This is a preliminary estimate and should be confirmed by a medical professional
+2025-04-11 19:33:04,864 - __main__ - INFO - Heatmap saved to models\visualizations\2 (1)_heatmap.png
+2025-04-11 19:33:04,864 - __main__ - INFO - Process completed successfully!
+2025-04-16 17:41:30,867 - __main__ - INFO - Models already exist, skipping training
+2025-04-16 17:41:30,883 - __main__ - INFO - Loading densenet121 model from models\stroke_densenet121.pkl
+2025-04-16 17:41:31,376 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-16 17:41:31,477 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2025-04-16 17:42:43,082 - __main__ - INFO - Training new models...
+2025-04-16 17:42:43,082 - __main__ - INFO - Training DENSENET121 model...
+2025-04-16 17:42:48,284 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-04-16 17:42:56,266 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-16 17:55:53,582 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-16 17:55:53,593 - __main__ - INFO - Training new models...
+2025-04-16 17:55:53,595 - __main__ - INFO - Training DENSENET121 model...
+2025-04-16 17:55:53,595 - __main__ - INFO - Creating densenet121 model...
+2025-04-16 17:55:54,119 - __main__ - INFO - Training samples: 1843
+2025-04-16 17:55:54,119 - __main__ - INFO - Validation samples: 235

@@ -1,0 +1,94 @@
+2025-04-16 09:49:14,259 - BrainStrokeCNN - INFO - ==================================================
+2025-04-16 09:49:14,260 - BrainStrokeCNN - INFO - STARTING BRAIN STROKE CNN PIPELINE
+2025-04-16 09:49:14,261 - BrainStrokeCNN - INFO - ==================================================
+2025-04-16 09:49:14,263 - BrainStrokeCNN - INFO - Created directories: models, models\visualizations
+2025-04-16 09:49:14,268 - BrainStrokeCNN - INFO - Dataset structure verified successfully
+2025-04-16 09:49:14,269 - BrainStrokeCNN - INFO - Dataset counts: {
+  "Train": {
+    "stroke": 756,
+    "normal": 1087
+  },
+  "Test": {
+    "stroke": 130,
+    "normal": 307
+  },
+  "Validation": {
+    "stroke": 78,
+    "normal": 157
+  }
+}
+2025-04-16 09:49:14,270 - BrainStrokeCNN - INFO - Visualizing data distribution...
+2025-04-16 09:49:15,756 - BrainStrokeCNN - INFO - Total images: 2515
+2025-04-16 09:49:15,756 - BrainStrokeCNN - INFO - Training: 1843 images (73.3%)
+2025-04-16 09:49:15,772 - BrainStrokeCNN - INFO - Validation: 235 images (9.3%)
+2025-04-16 09:49:15,772 - BrainStrokeCNN - INFO - Testing: 437 images (17.4%)
+2025-04-16 09:49:16,261 - BrainStrokeCNN - INFO - Loading datasets...
+2025-04-16 09:49:16,261 - BrainStrokeCNN - INFO - Using image size: (256, 256)
+2025-04-16 09:49:16,440 - BrainStrokeCNN - INFO - Classes found: {'Normal': 0, 'Stroke': 1}
+2025-04-16 09:49:16,440 - BrainStrokeCNN - INFO - Training samples: 1843
+2025-04-16 09:49:16,440 - BrainStrokeCNN - INFO - Validation samples: 235
+2025-04-16 09:49:16,440 - BrainStrokeCNN - INFO - Test samples: 437
+2025-04-16 09:49:16,440 - BrainStrokeCNN - INFO - Training data target size: (256, 256)
+2025-04-16 09:49:16,440 - BrainStrokeCNN - INFO - Validation data target size: (256, 256)
+2025-04-16 09:49:16,453 - BrainStrokeCNN - INFO - Test data target size: (256, 256)
+2025-04-16 09:49:16,454 - BrainStrokeCNN - INFO - ==================================================
+2025-04-16 09:49:16,455 - BrainStrokeCNN - INFO - PROCESSING MODEL: DenseNet121
+2025-04-16 09:49:16,455 - BrainStrokeCNN - INFO - ==================================================
+2025-04-16 09:49:16,457 - BrainStrokeCNN - INFO - Loading existing model from models\stroke_densenet121.pkl
+2025-04-16 09:49:17,180 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-16 09:49:17,302 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2025-04-16 09:50:37,640 - BrainStrokeCNN - INFO - Evaluating DenseNet121 model...
+2025-04-16 09:50:39,018 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-04-16 09:50:39,122 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-16 09:50:53,417 - BrainStrokeCNN - INFO - DenseNet121 Test Results: {'loss': 0.16522105038166046, 'accuracy': 0.9244851469993591}
+2025-04-16 09:51:11,933 - BrainStrokeCNN - INFO - 
+Classification Report for DenseNet121:
+2025-04-16 09:51:11,933 - BrainStrokeCNN - INFO -               precision    recall  f1-score   support
+
+      Normal     0.9964    0.8958    0.9434       307
+      Stroke     0.8012    0.9923    0.8866       130
+
+    accuracy                         0.9245       437
+   macro avg     0.8988    0.9440    0.9150       437
+weighted avg     0.9383    0.9245    0.9265       437
+
+2025-04-16 09:51:13,249 - BrainStrokeCNN - INFO - ==================================================
+2025-04-16 09:51:13,249 - BrainStrokeCNN - INFO - PROCESSING MODEL: ResNet50
+2025-04-16 09:51:13,249 - BrainStrokeCNN - INFO - ==================================================
+2025-04-16 09:51:13,249 - BrainStrokeCNN - INFO - Loading existing model from models\stroke_resnet50.pkl
+2025-04-16 09:53:19,005 - BrainStrokeCNN - INFO - Evaluating ResNet50 model...
+2025-04-16 09:53:35,004 - BrainStrokeCNN - INFO - ResNet50 Test Results: {'loss': 0.2871122360229492, 'accuracy': 0.8947368264198303}
+2025-04-16 09:53:53,157 - BrainStrokeCNN - INFO - 
+Classification Report for ResNet50:
+2025-04-16 09:53:53,164 - BrainStrokeCNN - INFO -               precision    recall  f1-score   support
+
+      Normal     0.9962    0.8534    0.9193       307
+      Stroke     0.7414    0.9923    0.8487       130
+
+    accuracy                         0.8947       437
+   macro avg     0.8688    0.9229    0.8840       437
+weighted avg     0.9204    0.8947    0.8983       437
+
+2025-04-16 09:53:54,428 - BrainStrokeCNN - INFO - ==================================================
+2025-04-16 09:53:54,429 - BrainStrokeCNN - INFO - PROCESSING MODEL: Xception
+2025-04-16 09:53:54,430 - BrainStrokeCNN - INFO - ==================================================
+2025-04-16 09:53:54,431 - BrainStrokeCNN - INFO - Loading existing model from models\stroke_xception.pkl
+2025-04-16 09:55:21,677 - BrainStrokeCNN - INFO - Evaluating Xception model...
+2025-04-16 09:55:38,342 - BrainStrokeCNN - INFO - Xception Test Results: {'loss': 0.2625952363014221, 'accuracy': 0.8970251679420471}
+2025-04-16 09:55:56,974 - BrainStrokeCNN - INFO - 
+Classification Report for Xception:
+2025-04-16 09:55:56,974 - BrainStrokeCNN - INFO -               precision    recall  f1-score   support
+
+      Normal     1.0000    0.8534    0.9209       307
+      Stroke     0.7429    1.0000    0.8525       130
+
+    accuracy                         0.8970       437
+   macro avg     0.8714    0.9267    0.8867       437
+weighted avg     0.9235    0.8970    0.9005       437
+
+2025-04-16 09:55:58,214 - BrainStrokeCNN - INFO - Comparing model performances...
+2025-04-16 09:55:58,214 - BrainStrokeCNN - ERROR - ERROR IN MAIN PIPELINE: 'precision'

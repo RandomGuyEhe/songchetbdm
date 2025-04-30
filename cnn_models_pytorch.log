@@ -1,0 +1,1271 @@
+2025-04-16 18:58:48,381 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-16 18:58:48,391 - __main__ - INFO - Training new models...
+2025-04-16 18:58:48,391 - __main__ - INFO - Training DENSENET121 model...
+2025-04-16 18:58:48,392 - __main__ - INFO - Creating densenet121 model...
+2025-04-16 18:58:48,855 - __main__ - INFO - Training samples: 1843
+2025-04-16 18:58:48,857 - __main__ - INFO - Validation samples: 235
+2025-04-16 18:59:42,194 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-16 18:59:42,202 - __main__ - INFO - Training new models...
+2025-04-16 18:59:42,203 - __main__ - INFO - Training DENSENET121 model...
+2025-04-16 18:59:42,204 - __main__ - INFO - Creating densenet121 model...
+2025-04-16 18:59:42,551 - __main__ - INFO - Training samples: 1843
+2025-04-16 18:59:42,552 - __main__ - INFO - Validation samples: 235
+2025-04-16 19:06:10,151 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-16 19:06:10,170 - __main__ - INFO - Training new models...
+2025-04-16 19:06:10,171 - __main__ - INFO - Training DENSENET121 model...
+2025-04-16 19:06:10,172 - __main__ - INFO - Creating densenet121 model...
+2025-04-16 19:06:10,549 - __main__ - INFO - Training samples: 1843
+2025-04-16 19:06:10,549 - __main__ - INFO - Validation samples: 235
+2025-04-16 19:15:40,867 - __main__ - INFO - Epoch 1/100 - Train Loss: 0.6489, Train Acc: 0.6186, Val Loss: 0.5367, Val Acc: 0.7617
+2025-04-16 19:24:50,382 - __main__ - INFO - Epoch 2/100 - Train Loss: 0.5410, Train Acc: 0.7222, Val Loss: 0.4884, Val Acc: 0.8043
+2025-04-16 19:33:56,496 - __main__ - INFO - Epoch 3/100 - Train Loss: 0.4887, Train Acc: 0.7499, Val Loss: 0.4493, Val Acc: 0.7660
+2025-04-16 19:43:05,088 - __main__ - INFO - Epoch 4/100 - Train Loss: 0.4322, Train Acc: 0.7944, Val Loss: 0.3930, Val Acc: 0.8511
+2025-04-16 19:52:15,233 - __main__ - INFO - Epoch 5/100 - Train Loss: 0.3756, Train Acc: 0.8313, Val Loss: 0.3126, Val Acc: 0.8511
+2025-04-16 20:01:26,204 - __main__ - INFO - Epoch 6/100 - Train Loss: 0.3131, Train Acc: 0.8611, Val Loss: 0.3748, Val Acc: 0.8383
+2025-04-16 20:09:22,968 - __main__ - INFO - Epoch 7/100 - Train Loss: 0.3116, Train Acc: 0.8611, Val Loss: 0.5347, Val Acc: 0.7574
+2025-04-16 20:16:51,974 - __main__ - INFO - Epoch 8/100 - Train Loss: 0.3062, Train Acc: 0.8681, Val Loss: 0.2618, Val Acc: 0.8894
+2025-04-16 20:24:21,537 - __main__ - INFO - Epoch 9/100 - Train Loss: 0.2221, Train Acc: 0.9067, Val Loss: 0.2460, Val Acc: 0.8851
+2025-04-16 20:33:05,250 - __main__ - INFO - Epoch 10/100 - Train Loss: 0.2453, Train Acc: 0.9034, Val Loss: 0.3294, Val Acc: 0.8809
+2025-04-16 20:43:56,187 - __main__ - INFO - Epoch 11/100 - Train Loss: 0.1824, Train Acc: 0.9197, Val Loss: 0.2595, Val Acc: 0.8851
+2025-04-16 20:54:55,907 - __main__ - INFO - Epoch 12/100 - Train Loss: 0.1719, Train Acc: 0.9311, Val Loss: 0.3830, Val Acc: 0.8596
+2025-04-16 21:06:36,388 - __main__ - INFO - Epoch 13/100 - Train Loss: 0.1633, Train Acc: 0.9392, Val Loss: 0.2382, Val Acc: 0.8894
+2025-04-16 21:18:14,507 - __main__ - INFO - Epoch 14/100 - Train Loss: 0.1422, Train Acc: 0.9501, Val Loss: 0.3575, Val Acc: 0.8894
+2025-04-17 14:13:05,448 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-17 14:13:07,719 - __main__ - INFO - Training DENSENET121 model...
+2025-04-17 14:13:07,719 - __main__ - INFO - Creating densenet121 model...
+2025-04-17 14:13:08,159 - __main__ - INFO - Training samples: 1843
+2025-04-17 14:13:08,159 - __main__ - INFO - Validation samples: 235
+2025-04-17 14:16:54,345 - __main__ - INFO - CuPy not found, using CPU for image processing
+2025-04-17 14:16:54,358 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-17 14:16:54,358 - __main__ - INFO - Using 4 workers for data loading
+2025-04-17 14:16:54,412 - __main__ - WARNING - Could not JIT-compile transforms, using regular transforms
+2025-04-17 14:16:54,505 - __main__ - WARNING - Could not JIT-compile transforms, using regular transforms
+2025-04-17 14:16:54,511 - __main__ - INFO - At least one model needs to be trained...
+2025-04-17 14:16:54,511 - __main__ - INFO - Training densenet121 model...
+2025-04-17 14:16:54,511 - __main__ - INFO - Creating densenet121 model...
+2025-04-17 14:16:54,955 - __main__ - INFO - Using torch.compile for model optimization
+2025-04-17 14:16:54,955 - __main__ - WARNING - Could not compile model: Windows not yet supported for torch.compile
+2025-04-17 14:16:54,970 - __main__ - INFO - Training samples: 1843
+2025-04-17 14:16:54,970 - __main__ - INFO - Validation samples: 235
+2025-04-17 14:34:40,234 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-17 14:34:41,595 - __main__ - ERROR - Model file not found: models_pytorch\stroke_densenet121.pkl
+2025-04-17 14:34:41,595 - __main__ - ERROR - Model file not found: models_pytorch\stroke_resnet50.pkl
+2025-04-17 14:34:41,595 - __main__ - ERROR - Model file not found: models_pytorch\stroke_xception.pkl
+2025-04-17 14:34:41,616 - __main__ - ERROR - Missing evaluation results for models: ['densenet121', 'resnet50', 'xception']
+2025-04-17 14:34:41,662 - __main__ - WARNING - No models were loaded. Make sure the model files exist.
+2025-04-17 14:34:41,662 - __main__ - ERROR - Error predicting on Brain_Stroke_CT-SCAN_image\Test\Normal\50 (36).jpg: No models available for prediction
+2025-04-17 14:34:41,662 - __main__ - ERROR - Error predicting on Brain_Stroke_CT-SCAN_image\Test\Stroke\76 (10).jpg: No models available for prediction
+2025-04-17 14:41:48,736 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-17 14:41:50,086 - __main__ - ERROR - Model file not found: models_pytorch\stroke_densenet121.pkl
+2025-04-17 14:41:50,086 - __main__ - ERROR - Model file not found: models_pytorch\stroke_resnet50.pkl
+2025-04-17 14:41:50,086 - __main__ - ERROR - Model file not found: models_pytorch\stroke_xception.pkl
+2025-04-17 14:41:50,107 - __main__ - ERROR - Missing evaluation results for models: ['densenet121', 'resnet50', 'xception']
+2025-04-17 14:41:50,157 - __main__ - WARNING - No models were loaded. Make sure the model files exist.
+2025-04-17 14:41:50,157 - __main__ - ERROR - Error predicting on Brain_Stroke_CT-SCAN_image\Test\Normal\50 (36).jpg: name 'predict_stroke' is not defined
+2025-04-17 14:41:50,157 - __main__ - ERROR - Error predicting on Brain_Stroke_CT-SCAN_image\Test\Stroke\76 (10).jpg: name 'predict_stroke' is not defined
+2025-04-17 14:45:11,112 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-17 14:45:12,515 - __main__ - ERROR - Missing evaluation results for models: ['densenet121', 'resnet50', 'xception']
+2025-04-17 14:45:12,567 - __main__ - WARNING - No models were loaded. Make sure the model files exist.
+2025-04-17 14:45:12,567 - __main__ - ERROR - Error predicting on Brain_Stroke_CT-SCAN_image\Test\Normal\50 (36).jpg: No models available for prediction
+2025-04-17 14:45:12,567 - __main__ - ERROR - Error predicting on Brain_Stroke_CT-SCAN_image\Test\Stroke\76 (10).jpg: No models available for prediction
+2025-04-17 17:31:24,950 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-17 17:31:26,430 - __main__ - INFO - Training DENSENET121 model...
+2025-04-17 17:31:26,432 - __main__ - INFO - Creating densenet121 model...
+2025-04-17 17:31:26,707 - __main__ - INFO - Training samples: 1843
+2025-04-17 17:31:26,709 - __main__ - INFO - Validation samples: 235
+2025-04-17 17:38:37,871 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-17 17:38:39,210 - __main__ - INFO - Training DENSENET121 model...
+2025-04-17 17:38:39,211 - __main__ - INFO - Creating densenet121 model...
+2025-04-17 17:38:39,453 - __main__ - INFO - Training samples: 1843
+2025-04-17 17:38:39,454 - __main__ - INFO - Validation samples: 235
+2025-04-17 17:44:59,579 - __main__ - INFO - Epoch 1/30 - Train Loss: 0.6451, Train Acc: 0.6240, Val Loss: 0.5862, Val Acc: 0.7191 - Time: 380.12s
+2025-04-17 17:44:59,704 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_1.pkl
+2025-04-17 17:44:59,853 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.7191
+2025-04-17 17:51:47,143 - __main__ - INFO - Epoch 2/30 - Train Loss: 0.5338, Train Acc: 0.7200, Val Loss: 0.4945, Val Acc: 0.7574 - Time: 407.29s
+2025-04-17 17:51:47,291 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_2.pkl
+2025-04-17 17:51:47,407 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.7574
+2025-04-17 17:59:11,880 - __main__ - INFO - Epoch 3/30 - Train Loss: 0.4780, Train Acc: 0.7727, Val Loss: 0.4427, Val Acc: 0.7957 - Time: 444.47s
+2025-04-17 17:59:12,007 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_3.pkl
+2025-04-17 17:59:12,134 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.7957
+2025-04-17 18:06:45,382 - __main__ - INFO - Epoch 4/30 - Train Loss: 0.4212, Train Acc: 0.8052, Val Loss: 0.4050, Val Acc: 0.8511 - Time: 453.25s
+2025-04-17 18:06:45,514 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_4.pkl
+2025-04-17 18:06:45,650 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.8511
+2025-04-17 18:13:25,979 - __main__ - INFO - Epoch 5/30 - Train Loss: 0.3615, Train Acc: 0.8410, Val Loss: 0.3683, Val Acc: 0.8383 - Time: 400.33s
+2025-04-17 18:13:26,138 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_5.pkl
+2025-04-17 18:20:18,591 - __main__ - INFO - Epoch 6/30 - Train Loss: 0.3251, Train Acc: 0.8616, Val Loss: 0.3716, Val Acc: 0.8468 - Time: 412.45s
+2025-04-17 18:20:18,727 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_6.pkl
+2025-04-17 18:27:18,129 - __main__ - INFO - Epoch 7/30 - Train Loss: 0.2990, Train Acc: 0.8730, Val Loss: 0.3805, Val Acc: 0.8511 - Time: 419.40s
+2025-04-17 18:27:18,249 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_7.pkl
+2025-04-17 18:34:10,100 - __main__ - INFO - Epoch 8/30 - Train Loss: 0.2877, Train Acc: 0.8828, Val Loss: 0.3322, Val Acc: 0.8340 - Time: 411.85s
+2025-04-17 18:34:10,219 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_8.pkl
+2025-04-17 18:41:01,413 - __main__ - INFO - Epoch 9/30 - Train Loss: 0.2324, Train Acc: 0.9088, Val Loss: 0.2976, Val Acc: 0.8851 - Time: 411.19s
+2025-04-17 18:41:01,541 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_9.pkl
+2025-04-17 18:41:01,657 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.8851
+2025-04-17 18:47:47,519 - __main__ - INFO - Epoch 10/30 - Train Loss: 0.2267, Train Acc: 0.8985, Val Loss: 0.3793, Val Acc: 0.8638 - Time: 405.86s
+2025-04-17 18:47:47,644 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_10.pkl
+2025-04-17 18:54:42,748 - __main__ - INFO - Epoch 11/30 - Train Loss: 0.1927, Train Acc: 0.9240, Val Loss: 0.3806, Val Acc: 0.8766 - Time: 415.09s
+2025-04-17 18:54:42,868 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_11.pkl
+2025-04-17 19:01:30,069 - __main__ - INFO - Epoch 12/30 - Train Loss: 0.2121, Train Acc: 0.9126, Val Loss: 0.2320, Val Acc: 0.8851 - Time: 407.20s
+2025-04-17 19:01:30,220 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_12.pkl
+2025-04-17 19:08:47,876 - __main__ - INFO - Epoch 13/30 - Train Loss: 0.1752, Train Acc: 0.9219, Val Loss: 0.3018, Val Acc: 0.8851 - Time: 437.66s
+2025-04-17 19:08:48,008 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_13.pkl
+2025-04-17 19:15:14,930 - __main__ - INFO - Epoch 14/30 - Train Loss: 0.1429, Train Acc: 0.9430, Val Loss: 0.1559, Val Acc: 0.9362 - Time: 386.92s
+2025-04-17 19:15:15,063 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_14.pkl
+2025-04-17 19:15:15,227 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9362
+2025-04-17 19:22:02,764 - __main__ - INFO - Epoch 15/30 - Train Loss: 0.1486, Train Acc: 0.9409, Val Loss: 0.3527, Val Acc: 0.8723 - Time: 407.52s
+2025-04-17 19:22:02,899 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_15.pkl
+2025-04-17 19:28:51,785 - __main__ - INFO - Epoch 16/30 - Train Loss: 0.1819, Train Acc: 0.9278, Val Loss: 0.2324, Val Acc: 0.9106 - Time: 408.89s
+2025-04-17 19:28:51,919 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_16.pkl
+2025-04-17 19:35:47,956 - __main__ - INFO - Epoch 17/30 - Train Loss: 0.1172, Train Acc: 0.9582, Val Loss: 0.2429, Val Acc: 0.8894 - Time: 416.04s
+2025-04-17 19:35:48,082 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_17.pkl
+2025-04-17 19:42:21,446 - __main__ - INFO - Epoch 18/30 - Train Loss: 0.1244, Train Acc: 0.9495, Val Loss: 0.2161, Val Acc: 0.9064 - Time: 393.36s
+2025-04-17 19:42:21,593 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_18.pkl
+2025-04-17 19:49:13,438 - __main__ - INFO - Epoch 19/30 - Train Loss: 0.1359, Train Acc: 0.9414, Val Loss: 0.2962, Val Acc: 0.8766 - Time: 411.84s
+2025-04-17 19:49:13,672 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_19.pkl
+2025-04-17 19:56:01,671 - __main__ - INFO - Epoch 20/30 - Train Loss: 0.1159, Train Acc: 0.9506, Val Loss: 0.2322, Val Acc: 0.8936 - Time: 408.00s
+2025-04-17 19:56:01,814 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_20.pkl
+2025-04-17 20:02:41,529 - __main__ - INFO - Epoch 21/30 - Train Loss: 0.0662, Train Acc: 0.9778, Val Loss: 0.1245, Val Acc: 0.9532 - Time: 399.71s
+2025-04-17 20:02:41,656 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_21.pkl
+2025-04-17 20:02:41,815 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9532
+2025-04-17 20:08:56,018 - __main__ - INFO - Epoch 22/30 - Train Loss: 0.0633, Train Acc: 0.9788, Val Loss: 0.1486, Val Acc: 0.9404 - Time: 374.20s
+2025-04-17 20:08:56,129 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_22.pkl
+2025-04-17 20:15:18,921 - __main__ - INFO - Epoch 23/30 - Train Loss: 0.0500, Train Acc: 0.9826, Val Loss: 0.2226, Val Acc: 0.9277 - Time: 382.79s
+2025-04-17 20:15:19,048 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_23.pkl
+2025-04-17 20:21:43,489 - __main__ - INFO - Epoch 24/30 - Train Loss: 0.0514, Train Acc: 0.9816, Val Loss: 0.1450, Val Acc: 0.9574 - Time: 384.44s
+2025-04-17 20:21:43,644 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_24.pkl
+2025-04-17 20:21:43,980 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9574
+2025-04-17 20:29:08,128 - __main__ - INFO - Epoch 25/30 - Train Loss: 0.0529, Train Acc: 0.9783, Val Loss: 0.0803, Val Acc: 0.9702 - Time: 444.15s
+2025-04-17 20:29:08,258 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_25.pkl
+2025-04-17 20:29:08,368 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9702
+2025-04-17 20:36:13,909 - __main__ - INFO - Epoch 26/30 - Train Loss: 0.0438, Train Acc: 0.9853, Val Loss: 0.2165, Val Acc: 0.9234 - Time: 425.54s
+2025-04-17 20:36:14,034 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_26.pkl
+2025-04-17 20:43:36,794 - __main__ - INFO - Epoch 27/30 - Train Loss: 0.0428, Train Acc: 0.9848, Val Loss: 0.1325, Val Acc: 0.9532 - Time: 442.76s
+2025-04-17 20:43:36,933 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_27.pkl
+2025-04-17 20:51:00,803 - __main__ - INFO - Epoch 28/30 - Train Loss: 0.0744, Train Acc: 0.9734, Val Loss: 0.2435, Val Acc: 0.9277 - Time: 443.87s
+2025-04-17 20:51:00,951 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_28.pkl
+2025-04-17 20:58:14,744 - __main__ - INFO - Epoch 29/30 - Train Loss: 0.0509, Train Acc: 0.9810, Val Loss: 0.0972, Val Acc: 0.9660 - Time: 433.79s
+2025-04-17 20:58:14,914 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_29.pkl
+2025-04-17 21:05:58,962 - __main__ - INFO - Epoch 30/30 - Train Loss: 0.0343, Train Acc: 0.9864, Val Loss: 0.1416, Val Acc: 0.9532 - Time: 464.05s
+2025-04-17 21:05:59,112 - __main__ - INFO - Model saved to models_pytorch\stroke_densenet121_epoch_30.pkl
+2025-04-17 21:05:59,112 - __main__ - INFO - Training completed in 12439.65s
+2025-04-17 21:05:59,258 - __main__ - INFO - Final model saved to models_pytorch\stroke_densenet121.pkl
+2025-04-17 21:05:59,887 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-17 21:06:00,046 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-17 21:06:00,046 - __main__ - INFO - Test samples: 437
+2025-04-17 21:09:14,507 - __main__ - ERROR - Model file not found: models_pytorch\stroke_resnet50.pkl
+2025-04-17 21:09:14,521 - __main__ - ERROR - Model file not found: models_pytorch\stroke_xception.pkl
+2025-04-17 21:09:14,544 - __main__ - ERROR - Missing evaluation results for models: ['resnet50', 'xception']
+2025-04-17 21:09:14,721 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-17 21:09:14,807 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-17 21:15:40,377 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-17 21:15:42,012 - __main__ - INFO - Training RESNET50 model...
+2025-04-17 21:15:42,013 - __main__ - INFO - Creating resnet50 model...
+2025-04-17 21:18:50,189 - __main__ - INFO - Training samples: 1843
+2025-04-17 21:18:50,189 - __main__ - INFO - Validation samples: 235
+2025-04-17 21:23:16,416 - __main__ - INFO - Epoch 1/30 - Train Loss: 0.6257, Train Acc: 0.6555, Val Loss: 0.5140, Val Acc: 0.7064 - Time: 266.23s
+2025-04-17 21:23:16,645 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_1.pkl
+2025-04-17 21:23:16,828 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.7064
+2025-04-17 21:27:22,698 - __main__ - INFO - Epoch 2/30 - Train Loss: 0.5039, Train Acc: 0.7455, Val Loss: 0.6158, Val Acc: 0.7021 - Time: 245.87s
+2025-04-17 21:27:22,967 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_2.pkl
+2025-04-17 21:31:24,126 - __main__ - INFO - Epoch 3/30 - Train Loss: 0.4784, Train Acc: 0.7699, Val Loss: 0.4198, Val Acc: 0.8085 - Time: 241.16s
+2025-04-17 21:31:24,323 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_3.pkl
+2025-04-17 21:31:24,491 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.8085
+2025-04-17 21:35:29,492 - __main__ - INFO - Epoch 4/30 - Train Loss: 0.4245, Train Acc: 0.8133, Val Loss: 0.4680, Val Acc: 0.7872 - Time: 244.99s
+2025-04-17 21:35:29,666 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_4.pkl
+2025-04-17 21:39:31,813 - __main__ - INFO - Epoch 5/30 - Train Loss: 0.4217, Train Acc: 0.8068, Val Loss: 0.5039, Val Acc: 0.7404 - Time: 242.15s
+2025-04-17 21:39:32,016 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_5.pkl
+2025-04-17 21:43:36,769 - __main__ - INFO - Epoch 6/30 - Train Loss: 0.3732, Train Acc: 0.8361, Val Loss: 0.3696, Val Acc: 0.8511 - Time: 244.75s
+2025-04-17 21:43:36,973 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_6.pkl
+2025-04-17 21:43:37,157 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.8511
+2025-04-17 21:47:38,605 - __main__ - INFO - Epoch 7/30 - Train Loss: 0.3429, Train Acc: 0.8459, Val Loss: 0.3124, Val Acc: 0.8553 - Time: 241.45s
+2025-04-17 21:47:38,830 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_7.pkl
+2025-04-17 21:47:39,012 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.8553
+2025-04-17 21:51:41,569 - __main__ - INFO - Epoch 8/30 - Train Loss: 0.3075, Train Acc: 0.8725, Val Loss: 0.6277, Val Acc: 0.7362 - Time: 242.56s
+2025-04-17 21:51:41,768 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_8.pkl
+2025-04-17 21:55:44,005 - __main__ - INFO - Epoch 9/30 - Train Loss: 0.2865, Train Acc: 0.8752, Val Loss: 0.3519, Val Acc: 0.8681 - Time: 242.24s
+2025-04-17 21:55:44,227 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_9.pkl
+2025-04-17 21:55:44,397 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.8681
+2025-04-17 21:59:48,305 - __main__ - INFO - Epoch 10/30 - Train Loss: 0.2713, Train Acc: 0.8855, Val Loss: 0.3590, Val Acc: 0.8213 - Time: 243.91s
+2025-04-17 21:59:48,492 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_10.pkl
+2025-04-17 22:03:52,744 - __main__ - INFO - Epoch 11/30 - Train Loss: 0.2661, Train Acc: 0.8909, Val Loss: 0.5944, Val Acc: 0.7745 - Time: 244.24s
+2025-04-17 22:03:52,938 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_11.pkl
+2025-04-17 22:07:54,939 - __main__ - INFO - Epoch 12/30 - Train Loss: 0.2667, Train Acc: 0.8893, Val Loss: 0.2453, Val Acc: 0.8766 - Time: 242.00s
+2025-04-17 22:07:55,141 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_12.pkl
+2025-04-17 22:07:55,351 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.8766
+2025-04-17 22:11:59,262 - __main__ - INFO - Epoch 13/30 - Train Loss: 0.2105, Train Acc: 0.9132, Val Loss: 0.3298, Val Acc: 0.8766 - Time: 243.91s
+2025-04-17 22:11:59,449 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_13.pkl
+2025-04-17 22:16:05,150 - __main__ - INFO - Epoch 14/30 - Train Loss: 0.2287, Train Acc: 0.9050, Val Loss: 0.2451, Val Acc: 0.8723 - Time: 245.70s
+2025-04-17 22:16:05,326 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_14.pkl
+2025-04-17 22:20:09,819 - __main__ - INFO - Epoch 15/30 - Train Loss: 0.1824, Train Acc: 0.9295, Val Loss: 0.1928, Val Acc: 0.9149 - Time: 244.48s
+2025-04-17 22:20:10,026 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_15.pkl
+2025-04-17 22:20:10,185 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.9149
+2025-04-17 22:24:14,790 - __main__ - INFO - Epoch 16/30 - Train Loss: 0.1972, Train Acc: 0.9224, Val Loss: 0.3138, Val Acc: 0.8468 - Time: 244.59s
+2025-04-17 22:24:14,984 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_16.pkl
+2025-04-17 22:28:20,310 - __main__ - INFO - Epoch 17/30 - Train Loss: 0.1758, Train Acc: 0.9295, Val Loss: 0.3489, Val Acc: 0.8553 - Time: 245.33s
+2025-04-17 22:28:20,520 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_17.pkl
+2025-04-17 22:32:23,852 - __main__ - INFO - Epoch 18/30 - Train Loss: 0.1447, Train Acc: 0.9495, Val Loss: 0.4099, Val Acc: 0.8723 - Time: 243.33s
+2025-04-17 22:32:24,056 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_18.pkl
+2025-04-17 22:36:25,085 - __main__ - INFO - Epoch 19/30 - Train Loss: 0.1468, Train Acc: 0.9441, Val Loss: 0.2481, Val Acc: 0.8894 - Time: 241.03s
+2025-04-17 22:36:25,288 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_19.pkl
+2025-04-17 22:40:29,603 - __main__ - INFO - Epoch 20/30 - Train Loss: 0.1689, Train Acc: 0.9349, Val Loss: 0.1976, Val Acc: 0.9191 - Time: 244.32s
+2025-04-17 22:40:29,783 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_20.pkl
+2025-04-17 22:40:29,984 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.9191
+2025-04-17 22:44:33,255 - __main__ - INFO - Epoch 21/30 - Train Loss: 0.1479, Train Acc: 0.9387, Val Loss: 0.3359, Val Acc: 0.8894 - Time: 243.27s
+2025-04-17 22:44:33,446 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_21.pkl
+2025-04-17 22:48:37,234 - __main__ - INFO - Epoch 22/30 - Train Loss: 0.0965, Train Acc: 0.9669, Val Loss: 0.1810, Val Acc: 0.9191 - Time: 243.79s
+2025-04-17 22:48:37,442 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_22.pkl
+2025-04-17 22:52:39,013 - __main__ - INFO - Epoch 23/30 - Train Loss: 0.0812, Train Acc: 0.9680, Val Loss: 0.2584, Val Acc: 0.9277 - Time: 241.57s
+2025-04-17 22:52:39,218 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_23.pkl
+2025-04-17 22:52:39,384 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.9277
+2025-04-17 22:56:41,071 - __main__ - INFO - Epoch 24/30 - Train Loss: 0.0757, Train Acc: 0.9734, Val Loss: 0.2278, Val Acc: 0.9362 - Time: 241.69s
+2025-04-17 22:56:41,263 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_24.pkl
+2025-04-17 22:56:41,435 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.9362
+2025-04-17 23:00:45,615 - __main__ - INFO - Epoch 25/30 - Train Loss: 0.0794, Train Acc: 0.9685, Val Loss: 0.3005, Val Acc: 0.8894 - Time: 244.18s
+2025-04-17 23:00:45,833 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_25.pkl
+2025-04-17 23:04:50,700 - __main__ - INFO - Epoch 26/30 - Train Loss: 0.0746, Train Acc: 0.9712, Val Loss: 0.1664, Val Acc: 0.9362 - Time: 244.87s
+2025-04-17 23:04:50,874 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_26.pkl
+2025-04-17 23:08:53,731 - __main__ - INFO - Epoch 27/30 - Train Loss: 0.0706, Train Acc: 0.9772, Val Loss: 0.1927, Val Acc: 0.9362 - Time: 242.86s
+2025-04-17 23:08:53,918 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_27.pkl
+2025-04-17 23:12:56,687 - __main__ - INFO - Epoch 28/30 - Train Loss: 0.0461, Train Acc: 0.9848, Val Loss: 0.1731, Val Acc: 0.9362 - Time: 242.77s
+2025-04-17 23:12:56,897 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_28.pkl
+2025-04-17 23:16:58,469 - __main__ - INFO - Epoch 29/30 - Train Loss: 0.0441, Train Acc: 0.9794, Val Loss: 0.1793, Val Acc: 0.9319 - Time: 241.57s
+2025-04-17 23:16:58,682 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_29.pkl
+2025-04-17 23:21:03,012 - __main__ - INFO - Epoch 30/30 - Train Loss: 0.0448, Train Acc: 0.9810, Val Loss: 0.1312, Val Acc: 0.9617 - Time: 244.33s
+2025-04-17 23:21:03,238 - __main__ - INFO - Model saved to models_pytorch\stroke_resnet50_epoch_30.pkl
+2025-04-17 23:21:03,442 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.9617
+2025-04-17 23:21:03,442 - __main__ - INFO - Training completed in 7333.25s
+2025-04-17 23:21:03,640 - __main__ - INFO - Final model saved to models_pytorch\stroke_resnet50.pkl
+2025-04-17 23:21:04,276 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-17 23:21:04,441 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-17 23:21:04,444 - __main__ - INFO - Test samples: 437
+2025-04-17 23:24:33,845 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-17 23:24:34,044 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-17 23:24:34,048 - __main__ - INFO - Test samples: 437
+2025-04-17 23:24:52,666 - __main__ - ERROR - Model file not found: models_pytorch\stroke_xception.pkl
+2025-04-17 23:24:52,690 - __main__ - ERROR - Missing evaluation results for models: ['xception']
+2025-04-17 23:24:52,805 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-17 23:24:52,938 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-17 23:24:52,939 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-17 23:24:53,304 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-17 23:50:38,871 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-17 23:50:40,430 - __main__ - INFO - Training XCEPTION model...
+2025-04-17 23:50:40,433 - __main__ - INFO - Creating xception model...
+2025-04-17 23:50:40,435 - __main__ - WARNING - PyTorch doesn't have Xception model. Using ResNet50 instead.
+2025-04-17 23:50:40,946 - __main__ - INFO - Training samples: 1843
+2025-04-17 23:50:40,948 - __main__ - INFO - Validation samples: 235
+2025-04-17 23:52:31,511 - __main__ - INFO - Epoch 1/30 - Train Loss: 0.6242, Train Acc: 0.6517, Val Loss: 0.5171, Val Acc: 0.7191 - Time: 110.56s
+2025-04-17 23:52:31,731 - __main__ - INFO - Model saved to models_pytorch\stroke_xception_epoch_1.pkl
+2025-04-17 23:52:31,964 - __main__ - INFO - Best model saved to models_pytorch\stroke_xception_best.pkl with validation accuracy: 0.7191
+2025-04-17 23:54:42,496 - __main__ - INFO - Epoch 2/30 - Train Loss: 0.5070, Train Acc: 0.7547, Val Loss: 0.6782, Val Acc: 0.6255 - Time: 130.53s
+2025-04-17 23:54:42,701 - __main__ - INFO - Model saved to models_pytorch\stroke_xception_epoch_2.pkl
+2025-04-17 23:56:55,368 - __main__ - INFO - Epoch 3/30 - Train Loss: 0.4641, Train Acc: 0.7792, Val Loss: 0.4848, Val Acc: 0.7787 - Time: 132.67s
+2025-04-17 23:56:55,547 - __main__ - INFO - Model saved to models_pytorch\stroke_xception_epoch_3.pkl
+2025-04-17 23:56:55,770 - __main__ - INFO - Best model saved to models_pytorch\stroke_xception_best.pkl with validation accuracy: 0.7787
+2025-04-17 23:58:52,275 - __main__ - INFO - Epoch 4/30 - Train Loss: 0.4298, Train Acc: 0.8052, Val Loss: 0.4361, Val Acc: 0.8128 - Time: 116.50s
+2025-04-17 23:58:52,488 - __main__ - INFO - Model saved to models_pytorch\stroke_xception_epoch_4.pkl
+2025-04-17 23:58:52,683 - __main__ - INFO - Best model saved to models_pytorch\stroke_xception_best.pkl with validation accuracy: 0.8128
+2025-04-18 10:41:10,298 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 10:41:13,607 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 10:41:14,212 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 10:41:14,216 - __main__ - INFO - Test samples: 437
+2025-04-18 10:41:24,973 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 10:41:25,229 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 10:41:25,234 - __main__ - INFO - Test samples: 437
+2025-04-18 10:41:30,056 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 10:41:30,247 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 10:41:30,263 - __main__ - INFO - Test samples: 437
+2025-04-18 10:47:19,214 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 10:47:21,398 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 10:47:21,802 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 10:47:21,808 - __main__ - INFO - Test samples: 437
+2025-04-18 10:47:26,543 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 10:47:26,693 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 10:47:26,697 - __main__ - INFO - Test samples: 437
+2025-04-18 10:47:30,900 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 10:47:31,060 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 10:47:31,063 - __main__ - INFO - Test samples: 437
+2025-04-18 10:47:35,644 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 10:47:35,785 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 10:47:35,786 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 10:47:35,937 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 10:47:35,938 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 10:47:36,072 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 19:52:05,261 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 19:52:08,889 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 19:52:09,511 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 19:52:09,514 - __main__ - INFO - Test samples: 437
+2025-04-18 19:52:20,820 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 19:52:21,121 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 19:52:21,126 - __main__ - INFO - Test samples: 437
+2025-04-18 19:52:27,060 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 19:52:27,273 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 19:52:27,279 - __main__ - INFO - Test samples: 437
+2025-04-18 19:52:33,699 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 19:52:33,841 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 19:52:33,841 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 19:52:34,032 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 19:52:34,048 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 19:52:34,221 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 19:58:51,387 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 19:58:53,898 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 19:58:54,342 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 19:58:54,345 - __main__ - INFO - Test samples: 437
+2025-04-18 19:59:00,076 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 19:59:00,247 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 19:59:00,253 - __main__ - INFO - Test samples: 437
+2025-04-18 19:59:06,167 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 19:59:06,318 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 19:59:06,332 - __main__ - INFO - Test samples: 437
+2025-04-18 19:59:12,468 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 19:59:12,615 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 19:59:12,615 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 19:59:12,773 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 19:59:12,776 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 19:59:12,936 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 20:00:07,234 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 20:00:09,601 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 20:00:09,981 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 20:00:09,985 - __main__ - INFO - Test samples: 437
+2025-04-18 20:00:15,752 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 20:00:15,914 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 20:00:15,919 - __main__ - INFO - Test samples: 437
+2025-04-18 20:00:21,786 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 20:00:21,940 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 20:00:21,945 - __main__ - INFO - Test samples: 437
+2025-04-18 20:00:28,154 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 20:00:28,302 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 20:00:28,302 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 20:00:28,464 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 20:00:28,464 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 20:00:28,607 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 20:00:29,921 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2025-04-18 20:11:28,981 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 20:11:31,835 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 20:11:32,120 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 20:11:32,136 - __main__ - INFO - Test samples: 437
+2025-04-18 20:11:37,851 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 20:11:38,012 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 20:11:38,020 - __main__ - INFO - Test samples: 437
+2025-04-18 20:11:43,815 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 20:11:43,961 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 20:11:43,961 - __main__ - INFO - Test samples: 437
+2025-04-18 20:11:50,201 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 20:11:50,336 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 20:11:50,336 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 20:11:50,487 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 20:11:50,489 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 20:11:50,624 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 20:56:05,352 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 20:56:07,875 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 20:56:08,121 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 20:56:08,121 - __main__ - INFO - Test samples: 437
+2025-04-18 20:56:14,015 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 20:56:14,183 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 20:56:14,188 - __main__ - INFO - Test samples: 437
+2025-04-18 20:56:20,274 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 20:56:20,437 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 20:56:20,442 - __main__ - INFO - Test samples: 437
+2025-04-18 20:56:26,758 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 20:56:26,890 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 20:56:26,890 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 20:56:27,039 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 20:56:27,040 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 20:56:27,173 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 21:04:01,836 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 21:04:04,321 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 21:04:04,660 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 21:04:04,664 - __main__ - INFO - Test samples: 437
+2025-04-18 21:04:09,698 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 21:04:09,859 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 21:04:09,864 - __main__ - INFO - Test samples: 437
+2025-04-18 21:04:14,496 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 21:04:14,651 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 21:04:14,655 - __main__ - INFO - Test samples: 437
+2025-04-18 21:17:04,675 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 21:17:07,437 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 21:17:07,741 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 21:17:07,747 - __main__ - INFO - Test samples: 437
+2025-04-18 21:17:12,695 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 21:17:12,865 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 21:17:12,871 - __main__ - INFO - Test samples: 437
+2025-04-18 21:17:17,571 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 21:17:17,728 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 21:17:17,733 - __main__ - INFO - Test samples: 437
+2025-04-18 21:18:27,899 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 21:18:30,336 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 21:18:30,731 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 21:18:30,734 - __main__ - INFO - Test samples: 437
+2025-04-18 21:18:36,257 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 21:18:36,414 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 21:18:36,419 - __main__ - INFO - Test samples: 437
+2025-04-18 21:18:41,074 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 21:18:41,250 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 21:18:41,255 - __main__ - INFO - Test samples: 437
+2025-04-18 21:19:04,782 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 21:19:07,100 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 21:19:07,376 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 21:19:07,381 - __main__ - INFO - Test samples: 437
+2025-04-18 21:19:12,212 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 21:19:12,368 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 21:19:12,373 - __main__ - INFO - Test samples: 437
+2025-04-18 21:19:17,116 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 21:19:17,322 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 21:19:17,327 - __main__ - INFO - Test samples: 437
+2025-04-18 21:19:22,875 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 21:19:23,045 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 21:19:23,047 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 21:19:23,298 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 21:19:23,301 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 21:19:23,490 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 21:20:32,454 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 21:20:34,830 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 21:20:35,113 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 21:20:35,119 - __main__ - INFO - Test samples: 437
+2025-04-18 21:20:47,632 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-18 21:20:49,982 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-18 21:20:50,218 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-18 21:20:50,222 - __main__ - INFO - Test samples: 437
+2025-04-18 21:20:55,103 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-18 21:20:55,271 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-18 21:20:55,275 - __main__ - INFO - Test samples: 437
+2025-04-18 21:21:00,077 - __main__ - INFO - Loading xception model from models_pytorch\stroke_xception.pkl
+2025-04-18 21:21:00,262 - __main__ - INFO - Successfully loaded xception model
+2025-04-18 21:21:00,268 - __main__ - INFO - Test samples: 437
+2025-04-19 07:31:54,493 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-19 07:31:58,290 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-19 07:31:58,290 - __main__ - INFO - Creating efficientnet model...
+2025-04-19 07:48:15,627 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-19 08:17:05,910 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-19 08:17:08,179 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-19 08:17:08,180 - __main__ - INFO - Creating efficientnet model...
+2025-04-19 08:24:19,501 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-19 08:24:21,892 - __main__ - ERROR - Model file not found: models_pytorch\stroke_densenet121.pkl
+2025-04-19 08:24:21,892 - __main__ - ERROR - Model file not found: models_pytorch\stroke_resnet50.pkl
+2025-04-19 08:24:21,892 - __main__ - ERROR - Model file not found: models_pytorch\stroke_efficientnet.pkl
+2025-04-19 08:24:21,921 - __main__ - ERROR - No model evaluation results available.
+2025-04-19 08:24:22,059 - __main__ - WARNING - No models were loaded. Make sure the model files exist.
+2025-04-19 08:24:34,676 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-19 08:24:37,030 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-19 08:24:37,031 - __main__ - INFO - Creating efficientnet model...
+2025-04-19 10:22:08,011 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-19 10:22:10,495 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-19 10:22:10,496 - __main__ - INFO - Creating efficientnet model...
+2025-04-19 10:22:11,566 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-19 10:22:21,744 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-19 10:22:22,103 - __main__ - INFO - Training samples: 1843
+2025-04-19 10:22:22,104 - __main__ - INFO - Validation samples: 235
+2025-04-19 10:42:17,238 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-19 10:42:19,688 - __main__ - INFO - Training XCEPTION model...
+2025-04-19 10:42:19,689 - __main__ - INFO - Creating xception model...
+2025-04-19 10:42:20,878 - timm.models._builder - INFO - Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-cadene/xception-43020ad28.pth)
+2025-04-19 10:44:28,827 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-19 10:44:31,055 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-19 10:44:31,055 - __main__ - INFO - Creating efficientnet model...
+2025-04-19 10:44:31,241 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-19 10:44:31,637 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-19 10:44:31,910 - __main__ - INFO - Training samples: 1843
+2025-04-19 10:44:31,912 - __main__ - INFO - Validation samples: 235
+2025-04-19 10:56:15,385 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-19 10:56:17,897 - __main__ - ERROR - Model file not found: models_pytorch\stroke_densenet121.pkl
+2025-04-19 10:56:17,898 - __main__ - ERROR - Model file not found: models_pytorch\stroke_resnet50.pkl
+2025-04-19 10:56:17,899 - __main__ - ERROR - Model file not found: models_pytorch\stroke_efficientnet.pkl
+2025-04-19 10:56:17,900 - __main__ - ERROR - Model file not found: models_pytorch\stroke_xception.pkl
+2025-04-19 10:56:17,940 - __main__ - ERROR - No model evaluation results available.
+2025-04-19 10:56:18,120 - __main__ - WARNING - No models were loaded. Make sure the model files exist.
+2025-04-19 10:56:28,853 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-19 10:56:31,201 - __main__ - INFO - Training XCEPTION model...
+2025-04-19 10:56:31,201 - __main__ - INFO - Creating xception model...
+2025-04-19 10:56:32,036 - timm.models._builder - INFO - Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-cadene/xception-43020ad28.pth)
+2025-04-19 11:00:09,366 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-19 11:00:11,892 - __main__ - INFO - Training XCEPTION model...
+2025-04-19 11:00:11,892 - __main__ - INFO - Creating xception model...
+2025-04-19 11:00:12,209 - timm.models._builder - INFO - Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-cadene/xception-43020ad28.pth)
+2025-04-19 11:05:20,718 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-19 11:05:23,486 - __main__ - INFO - Training XCEPTION model...
+2025-04-19 11:05:23,487 - __main__ - INFO - Creating xception model...
+2025-04-19 11:05:23,902 - timm.models._builder - INFO - Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-cadene/xception-43020ad28.pth)
+2025-04-21 14:20:59,430 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-21 14:21:02,211 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-21 14:21:02,211 - __main__ - INFO - Creating efficientnet model...
+2025-04-21 14:21:02,416 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-21 14:21:17,574 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-21 14:21:17,880 - __main__ - INFO - Training samples: 1843
+2025-04-21 14:21:17,881 - __main__ - INFO - Validation samples: 235
+2025-04-21 14:24:06,568 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-21 14:24:08,893 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-21 14:24:08,894 - __main__ - INFO - Creating efficientnet model...
+2025-04-21 14:24:09,087 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-21 14:24:21,593 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-21 14:24:21,781 - __main__ - INFO - Training samples: 1843
+2025-04-21 14:24:21,781 - __main__ - INFO - Validation samples: 235
+2025-04-21 14:27:32,507 - __main__ - INFO - Epoch 1/50 - Train Loss: 0.6268, Train Acc: 0.6294, Val Loss: 0.5699, Val Acc: 0.6936 - Time: 190.71s
+2025-04-21 14:27:32,803 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.6936
+2025-04-21 14:30:36,323 - __main__ - INFO - Epoch 2/50 - Train Loss: 0.5131, Train Acc: 0.7325, Val Loss: 0.4774, Val Acc: 0.7532 - Time: 183.52s
+2025-04-21 14:30:36,611 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.7532
+2025-04-21 14:33:38,023 - __main__ - INFO - Epoch 3/50 - Train Loss: 0.4413, Train Acc: 0.7954, Val Loss: 0.5504, Val Acc: 0.7106 - Time: 181.41s
+2025-04-21 14:36:43,468 - __main__ - INFO - Epoch 4/50 - Train Loss: 0.3766, Train Acc: 0.8356, Val Loss: 0.3294, Val Acc: 0.8340 - Time: 185.44s
+2025-04-21 14:36:43,768 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8340
+2025-04-21 14:39:55,872 - __main__ - INFO - Epoch 5/50 - Train Loss: 0.3453, Train Acc: 0.8464, Val Loss: 0.3131, Val Acc: 0.8638 - Time: 192.10s
+2025-04-21 14:39:56,108 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8638
+2025-04-21 14:43:06,966 - __main__ - INFO - Epoch 6/50 - Train Loss: 0.2721, Train Acc: 0.8850, Val Loss: 0.3825, Val Acc: 0.8383 - Time: 190.86s
+2025-04-21 14:46:18,235 - __main__ - INFO - Epoch 7/50 - Train Loss: 0.2621, Train Acc: 0.8926, Val Loss: 0.2985, Val Acc: 0.8638 - Time: 191.27s
+2025-04-21 14:49:35,138 - __main__ - INFO - Epoch 8/50 - Train Loss: 0.2268, Train Acc: 0.9045, Val Loss: 0.2265, Val Acc: 0.9064 - Time: 196.90s
+2025-04-21 14:49:35,380 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9064
+2025-04-21 14:52:57,989 - __main__ - INFO - Epoch 9/50 - Train Loss: 0.1988, Train Acc: 0.9213, Val Loss: 0.3259, Val Acc: 0.8851 - Time: 202.61s
+2025-04-21 14:56:15,297 - __main__ - INFO - Epoch 10/50 - Train Loss: 0.1558, Train Acc: 0.9360, Val Loss: 0.3197, Val Acc: 0.8894 - Time: 197.31s
+2025-04-21 14:59:32,328 - __main__ - INFO - Epoch 11/50 - Train Loss: 0.1915, Train Acc: 0.9305, Val Loss: 0.2013, Val Acc: 0.9277 - Time: 197.03s
+2025-04-21 14:59:32,574 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9277
+2025-04-21 15:02:47,534 - __main__ - INFO - Epoch 12/50 - Train Loss: 0.1633, Train Acc: 0.9360, Val Loss: 0.1726, Val Acc: 0.9277 - Time: 194.96s
+2025-04-21 15:06:02,052 - __main__ - INFO - Epoch 13/50 - Train Loss: 0.1468, Train Acc: 0.9398, Val Loss: 0.2487, Val Acc: 0.8979 - Time: 194.52s
+2025-04-21 15:09:16,077 - __main__ - INFO - Epoch 14/50 - Train Loss: 0.1471, Train Acc: 0.9468, Val Loss: 0.1978, Val Acc: 0.9447 - Time: 194.02s
+2025-04-21 15:09:16,320 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9447
+2025-04-21 15:12:30,400 - __main__ - INFO - Epoch 15/50 - Train Loss: 0.1056, Train Acc: 0.9604, Val Loss: 0.1986, Val Acc: 0.9319 - Time: 194.08s
+2025-04-21 15:15:44,555 - __main__ - INFO - Epoch 16/50 - Train Loss: 0.1286, Train Acc: 0.9550, Val Loss: 0.1855, Val Acc: 0.9277 - Time: 194.16s
+2025-04-21 21:04:11,091 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-21 21:04:13,509 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-21 21:04:13,510 - __main__ - INFO - Creating efficientnet model...
+2025-04-21 21:04:13,761 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-21 21:04:14,167 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-21 21:04:14,540 - __main__ - INFO - Training samples: 1843
+2025-04-21 21:04:14,542 - __main__ - INFO - Validation samples: 235
+2025-04-21 21:05:06,165 - __main__ - INFO - Epoch 1/50 - Train Loss: 0.6302, Train Acc: 0.6392, Val Loss: 0.6618, Val Acc: 0.5617 - Time: 51.62s
+2025-04-21 21:05:06,464 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.5617
+2025-04-21 21:05:55,402 - __main__ - INFO - Epoch 2/50 - Train Loss: 0.5327, Train Acc: 0.7216, Val Loss: 0.4551, Val Acc: 0.8000 - Time: 48.94s
+2025-04-21 21:05:55,666 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8000
+2025-04-21 21:06:45,826 - __main__ - INFO - Epoch 3/50 - Train Loss: 0.4799, Train Acc: 0.7661, Val Loss: 0.4097, Val Acc: 0.7915 - Time: 50.16s
+2025-04-21 21:07:36,189 - __main__ - INFO - Epoch 4/50 - Train Loss: 0.4305, Train Acc: 0.8068, Val Loss: 0.3329, Val Acc: 0.9021 - Time: 50.36s
+2025-04-21 21:07:36,528 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9021
+2025-04-21 21:08:26,950 - __main__ - INFO - Epoch 5/50 - Train Loss: 0.4040, Train Acc: 0.8215, Val Loss: 0.3025, Val Acc: 0.8553 - Time: 50.42s
+2025-04-21 21:09:17,588 - __main__ - INFO - Epoch 6/50 - Train Loss: 0.3229, Train Acc: 0.8540, Val Loss: 0.3007, Val Acc: 0.8851 - Time: 50.64s
+2025-04-21 21:10:08,308 - __main__ - INFO - Epoch 7/50 - Train Loss: 0.3209, Train Acc: 0.8622, Val Loss: 0.2358, Val Acc: 0.9064 - Time: 50.72s
+2025-04-21 21:10:08,566 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9064
+2025-04-21 21:10:58,215 - __main__ - INFO - Epoch 8/50 - Train Loss: 0.2952, Train Acc: 0.8806, Val Loss: 0.2335, Val Acc: 0.8851 - Time: 49.65s
+2025-04-21 21:11:47,078 - __main__ - INFO - Epoch 9/50 - Train Loss: 0.2589, Train Acc: 0.8974, Val Loss: 0.2046, Val Acc: 0.9021 - Time: 48.86s
+2025-04-21 21:12:36,297 - __main__ - INFO - Epoch 10/50 - Train Loss: 0.2336, Train Acc: 0.9094, Val Loss: 0.2668, Val Acc: 0.8936 - Time: 49.22s
+2025-04-21 21:13:25,583 - __main__ - INFO - Epoch 11/50 - Train Loss: 0.2289, Train Acc: 0.9121, Val Loss: 0.1721, Val Acc: 0.9234 - Time: 49.29s
+2025-04-21 21:13:25,857 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9234
+2025-04-21 21:14:14,709 - __main__ - INFO - Epoch 12/50 - Train Loss: 0.2030, Train Acc: 0.9219, Val Loss: 0.1563, Val Acc: 0.9362 - Time: 48.85s
+2025-04-21 21:14:14,949 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9362
+2025-04-21 21:15:03,860 - __main__ - INFO - Epoch 13/50 - Train Loss: 0.1733, Train Acc: 0.9284, Val Loss: 0.2109, Val Acc: 0.9191 - Time: 48.91s
+2025-04-21 21:15:52,746 - __main__ - INFO - Epoch 14/50 - Train Loss: 0.1776, Train Acc: 0.9300, Val Loss: 0.2958, Val Acc: 0.8894 - Time: 48.88s
+2025-04-21 21:16:41,433 - __main__ - INFO - Epoch 15/50 - Train Loss: 0.1703, Train Acc: 0.9414, Val Loss: 0.2066, Val Acc: 0.9319 - Time: 48.69s
+2025-04-21 21:17:30,133 - __main__ - INFO - Epoch 16/50 - Train Loss: 0.1260, Train Acc: 0.9577, Val Loss: 0.1760, Val Acc: 0.9404 - Time: 48.70s
+2025-04-21 21:17:30,383 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9404
+2025-04-21 21:18:19,028 - __main__ - INFO - Epoch 17/50 - Train Loss: 0.1301, Train Acc: 0.9490, Val Loss: 0.1905, Val Acc: 0.9277 - Time: 48.64s
+2025-04-21 21:19:07,703 - __main__ - INFO - Epoch 18/50 - Train Loss: 0.1093, Train Acc: 0.9555, Val Loss: 0.1386, Val Acc: 0.9404 - Time: 48.68s
+2025-04-21 21:19:56,781 - __main__ - INFO - Epoch 19/50 - Train Loss: 0.1115, Train Acc: 0.9560, Val Loss: 0.2027, Val Acc: 0.9319 - Time: 49.08s
+2025-04-21 21:20:46,114 - __main__ - INFO - Epoch 20/50 - Train Loss: 0.1360, Train Acc: 0.9457, Val Loss: 0.1625, Val Acc: 0.9447 - Time: 49.33s
+2025-04-21 21:20:46,350 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9447
+2025-04-21 21:21:35,210 - __main__ - INFO - Epoch 21/50 - Train Loss: 0.1039, Train Acc: 0.9593, Val Loss: 0.2258, Val Acc: 0.9149 - Time: 48.86s
+2025-04-21 21:22:23,887 - __main__ - INFO - Epoch 22/50 - Train Loss: 0.1019, Train Acc: 0.9626, Val Loss: 0.2258, Val Acc: 0.9234 - Time: 48.67s
+2025-04-21 21:23:14,251 - __main__ - INFO - Epoch 23/50 - Train Loss: 0.0911, Train Acc: 0.9685, Val Loss: 0.1388, Val Acc: 0.9404 - Time: 50.36s
+2025-04-21 21:24:03,012 - __main__ - INFO - Epoch 24/50 - Train Loss: 0.0601, Train Acc: 0.9783, Val Loss: 0.2561, Val Acc: 0.9191 - Time: 48.76s
+2025-04-21 21:24:51,803 - __main__ - INFO - Epoch 25/50 - Train Loss: 0.0631, Train Acc: 0.9745, Val Loss: 0.1811, Val Acc: 0.9362 - Time: 48.79s
+2025-04-21 21:25:40,375 - __main__ - INFO - Epoch 26/50 - Train Loss: 0.0417, Train Acc: 0.9821, Val Loss: 0.2194, Val Acc: 0.9149 - Time: 48.57s
+2025-04-21 21:26:29,560 - __main__ - INFO - Epoch 27/50 - Train Loss: 0.0434, Train Acc: 0.9843, Val Loss: 0.2280, Val Acc: 0.9319 - Time: 49.18s
+2025-04-21 21:27:18,348 - __main__ - INFO - Epoch 28/50 - Train Loss: 0.0368, Train Acc: 0.9886, Val Loss: 0.1723, Val Acc: 0.9447 - Time: 48.79s
+2025-04-21 21:28:07,010 - __main__ - INFO - Epoch 29/50 - Train Loss: 0.0410, Train Acc: 0.9859, Val Loss: 0.2442, Val Acc: 0.9234 - Time: 48.66s
+2025-04-21 21:28:55,613 - __main__ - INFO - Epoch 30/50 - Train Loss: 0.0328, Train Acc: 0.9864, Val Loss: 0.1979, Val Acc: 0.9191 - Time: 48.60s
+2025-04-21 21:29:44,106 - __main__ - INFO - Epoch 31/50 - Train Loss: 0.0212, Train Acc: 0.9924, Val Loss: 0.1861, Val Acc: 0.9362 - Time: 48.49s
+2025-04-21 21:30:33,316 - __main__ - INFO - Epoch 32/50 - Train Loss: 0.0193, Train Acc: 0.9924, Val Loss: 0.1634, Val Acc: 0.9404 - Time: 49.21s
+2025-04-21 21:31:23,336 - __main__ - INFO - Epoch 33/50 - Train Loss: 0.0222, Train Acc: 0.9940, Val Loss: 0.1973, Val Acc: 0.9404 - Time: 50.02s
+2025-04-21 21:32:11,956 - __main__ - INFO - Epoch 34/50 - Train Loss: 0.0180, Train Acc: 0.9919, Val Loss: 0.2318, Val Acc: 0.9362 - Time: 48.62s
+2025-04-21 21:33:12,095 - __main__ - INFO - Epoch 35/50 - Train Loss: 0.0228, Train Acc: 0.9919, Val Loss: 0.1751, Val Acc: 0.9447 - Time: 60.14s
+2025-04-21 21:34:10,782 - __main__ - INFO - Epoch 36/50 - Train Loss: 0.0197, Train Acc: 0.9935, Val Loss: 0.1968, Val Acc: 0.9489 - Time: 58.69s
+2025-04-21 21:34:11,050 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9489
+2025-04-21 21:34:59,976 - __main__ - INFO - Epoch 37/50 - Train Loss: 0.0208, Train Acc: 0.9929, Val Loss: 0.1823, Val Acc: 0.9447 - Time: 48.92s
+2025-04-21 21:35:48,657 - __main__ - INFO - Epoch 38/50 - Train Loss: 0.0190, Train Acc: 0.9951, Val Loss: 0.1783, Val Acc: 0.9489 - Time: 48.68s
+2025-04-21 21:36:37,223 - __main__ - INFO - Epoch 39/50 - Train Loss: 0.0161, Train Acc: 0.9951, Val Loss: 0.2108, Val Acc: 0.9489 - Time: 48.57s
+2025-04-21 21:37:25,885 - __main__ - INFO - Epoch 40/50 - Train Loss: 0.0249, Train Acc: 0.9908, Val Loss: 0.1936, Val Acc: 0.9362 - Time: 48.66s
+2025-04-21 21:38:14,583 - __main__ - INFO - Epoch 41/50 - Train Loss: 0.0133, Train Acc: 0.9957, Val Loss: 0.1469, Val Acc: 0.9489 - Time: 48.70s
+2025-04-21 21:39:03,352 - __main__ - INFO - Epoch 42/50 - Train Loss: 0.0076, Train Acc: 0.9967, Val Loss: 0.1920, Val Acc: 0.9447 - Time: 48.77s
+2025-04-21 21:39:52,210 - __main__ - INFO - Epoch 43/50 - Train Loss: 0.0193, Train Acc: 0.9957, Val Loss: 0.1499, Val Acc: 0.9447 - Time: 48.86s
+2025-04-21 21:40:40,908 - __main__ - INFO - Epoch 44/50 - Train Loss: 0.0135, Train Acc: 0.9946, Val Loss: 0.1621, Val Acc: 0.9319 - Time: 48.70s
+2025-04-21 21:41:30,532 - __main__ - INFO - Epoch 45/50 - Train Loss: 0.0107, Train Acc: 0.9973, Val Loss: 0.1240, Val Acc: 0.9532 - Time: 49.62s
+2025-04-21 21:41:30,779 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9532
+2025-04-21 21:42:19,786 - __main__ - INFO - Epoch 46/50 - Train Loss: 0.0124, Train Acc: 0.9951, Val Loss: 0.1511, Val Acc: 0.9447 - Time: 49.01s
+2025-04-21 21:43:08,839 - __main__ - INFO - Epoch 47/50 - Train Loss: 0.0154, Train Acc: 0.9940, Val Loss: 0.1348, Val Acc: 0.9447 - Time: 49.05s
+2025-04-21 21:43:58,032 - __main__ - INFO - Epoch 48/50 - Train Loss: 0.0140, Train Acc: 0.9940, Val Loss: 0.1664, Val Acc: 0.9532 - Time: 49.19s
+2025-04-21 21:44:47,320 - __main__ - INFO - Epoch 49/50 - Train Loss: 0.0076, Train Acc: 0.9984, Val Loss: 0.1595, Val Acc: 0.9447 - Time: 49.29s
+2025-04-21 21:45:36,802 - __main__ - INFO - Epoch 50/50 - Train Loss: 0.0102, Train Acc: 0.9978, Val Loss: 0.1510, Val Acc: 0.9404 - Time: 49.48s
+2025-04-21 21:45:36,802 - __main__ - INFO - Training completed in 2482.26s
+2025-04-21 21:45:37,149 - __main__ - INFO - Final model saved to models_pytorch\stroke_efficientnet.pkl
+2025-04-21 21:45:37,149 - __main__ - INFO - Training history saved to models_pytorch\efficientnet_history.pkl
+2025-04-21 21:45:37,843 - __main__ - ERROR - Model file not found: models_pytorch\stroke_densenet121.pkl
+2025-04-21 21:45:37,845 - __main__ - ERROR - Model file not found: models_pytorch\stroke_resnet50.pkl
+2025-04-21 21:45:37,846 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-21 21:45:38,116 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-21 21:45:38,116 - __main__ - INFO - Test samples: 437
+2025-04-21 21:45:47,954 - __main__ - ERROR - Model file not found: models_pytorch\stroke_xception.pkl
+2025-04-21 21:45:48,447 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-21 21:45:48,607 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-27 17:29:16,507 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-27 17:29:19,347 - __main__ - INFO - Training XCEPTION model...
+2025-04-27 17:29:19,350 - __main__ - INFO - Creating xception model...
+2025-04-27 17:29:19,744 - timm.models._builder - INFO - Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-cadene/xception-43020ad28.pth)
+2025-04-28 09:56:09,599 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 09:56:12,357 - __main__ - INFO - Training DENSENET121 model...
+2025-04-28 09:56:12,357 - __main__ - INFO - Creating densenet121 model...
+2025-04-28 09:56:12,797 - __main__ - INFO - Training samples: 1843
+2025-04-28 09:56:12,799 - __main__ - INFO - Validation samples: 235
+2025-04-28 09:57:08,924 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 09:57:11,006 - __main__ - INFO - Training DENSENET121 model...
+2025-04-28 09:57:11,013 - __main__ - INFO - Creating densenet121 model...
+2025-04-28 09:57:11,374 - __main__ - INFO - Training samples: 1843
+2025-04-28 09:57:11,376 - __main__ - INFO - Validation samples: 235
+2025-04-28 09:58:08,184 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 09:58:10,508 - __main__ - INFO - Training RESNET50 model...
+2025-04-28 09:58:10,508 - __main__ - INFO - Creating resnet50 model...
+2025-04-28 09:58:11,183 - __main__ - INFO - Training samples: 1843
+2025-04-28 09:58:11,187 - __main__ - INFO - Validation samples: 235
+2025-04-28 09:59:00,950 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 09:59:03,229 - __main__ - INFO - Training RESNET50 model...
+2025-04-28 09:59:03,230 - __main__ - INFO - Creating resnet50 model...
+2025-04-28 09:59:03,857 - __main__ - INFO - Training samples: 1843
+2025-04-28 09:59:03,857 - __main__ - INFO - Validation samples: 235
+2025-04-28 10:00:15,594 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 10:00:17,962 - __main__ - INFO - Training RESNET50 model...
+2025-04-28 10:00:17,963 - __main__ - INFO - Creating resnet50 model...
+2025-04-28 10:00:18,657 - __main__ - INFO - Training samples: 1843
+2025-04-28 10:00:18,657 - __main__ - INFO - Validation samples: 235
+2025-04-28 10:24:59,638 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 10:25:02,118 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 10:25:02,600 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 10:25:02,604 - __main__ - INFO - Test samples: 437
+2025-04-28 10:25:14,130 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 10:25:14,363 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 10:25:14,378 - __main__ - INFO - Test samples: 437
+2025-04-28 10:25:19,525 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 10:25:19,696 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 10:25:19,701 - __main__ - INFO - Test samples: 437
+2025-04-28 10:25:25,055 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 10:25:25,196 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 10:25:25,196 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 10:25:25,371 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 10:25:25,373 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 10:25:25,731 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 10:25:25,846 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 10:25:26,015 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 10:25:26,017 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 10:25:26,175 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 10:25:26,175 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 10:25:26,321 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 10:35:06,086 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 10:35:08,330 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 10:35:08,574 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 10:35:08,574 - __main__ - INFO - Test samples: 437
+2025-04-28 10:35:13,786 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 10:35:14,239 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 10:35:14,252 - __main__ - INFO - Test samples: 437
+2025-04-28 10:35:19,056 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 10:35:19,210 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 10:35:19,215 - __main__ - INFO - Test samples: 437
+2025-04-28 10:35:24,187 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 10:35:24,346 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 10:35:24,347 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 10:35:24,522 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 10:35:24,522 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 10:35:24,659 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 10:35:24,773 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 10:35:24,910 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 10:35:24,912 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 10:35:25,081 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 10:35:25,083 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 10:35:25,223 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 10:39:40,688 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 10:39:42,954 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 10:39:43,170 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 10:39:43,176 - __main__ - INFO - Test samples: 437
+2025-04-28 10:39:48,249 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 10:39:48,465 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 10:39:48,474 - __main__ - INFO - Test samples: 437
+2025-04-28 10:39:53,382 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 10:39:53,542 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 10:39:53,546 - __main__ - INFO - Test samples: 437
+2025-04-28 10:39:58,449 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 10:39:58,614 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 10:39:58,614 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 10:39:58,777 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 10:39:58,777 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 10:39:58,926 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 10:39:59,050 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 10:39:59,458 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 10:39:59,458 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 10:39:59,624 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 10:39:59,624 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 10:39:59,769 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 13:04:28,152 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 13:04:30,591 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 13:04:30,876 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 13:04:30,882 - __main__ - INFO - Test samples: 437
+2025-04-28 13:04:36,775 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 13:04:36,958 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 13:04:36,958 - __main__ - INFO - Test samples: 437
+2025-04-28 13:04:41,542 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 13:04:41,711 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 13:04:41,711 - __main__ - INFO - Test samples: 437
+2025-04-28 13:04:46,859 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 13:04:47,009 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 13:04:47,009 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 13:04:47,198 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 13:04:47,198 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 13:04:47,492 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 13:04:47,609 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 13:04:47,771 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 13:04:47,772 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 13:04:47,926 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 13:04:47,926 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 13:04:48,061 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 13:09:10,597 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 13:09:12,908 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 13:09:13,174 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 13:09:13,178 - __main__ - INFO - Test samples: 437
+2025-04-28 13:09:18,546 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 13:09:18,701 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 13:09:18,706 - __main__ - INFO - Test samples: 437
+2025-04-28 13:09:23,288 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 13:09:23,438 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 13:09:23,444 - __main__ - INFO - Test samples: 437
+2025-04-28 13:09:28,358 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 13:09:28,501 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 13:09:28,503 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 13:09:28,652 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 13:09:28,653 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 13:09:28,937 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 13:09:29,027 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 13:09:29,205 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 13:09:29,207 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 13:09:29,357 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 13:09:29,360 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 13:09:29,491 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 13:12:07,573 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 13:12:09,836 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 13:12:10,167 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 13:12:10,167 - __main__ - INFO - Test samples: 437
+2025-04-28 13:12:15,525 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 13:12:15,699 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 13:12:15,704 - __main__ - INFO - Test samples: 437
+2025-04-28 13:12:20,041 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 13:12:20,217 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 13:12:20,217 - __main__ - INFO - Test samples: 437
+2025-04-28 13:12:24,946 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 13:12:25,075 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 13:12:25,075 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 13:12:25,257 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 13:12:25,257 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 13:12:25,378 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 13:12:25,619 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-28 13:12:25,759 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-28 13:12:25,775 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-28 13:12:25,949 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-28 13:12:25,951 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-28 13:12:26,094 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-28 13:27:37,970 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 13:27:40,458 - __main__ - INFO - Training DENSENET121 model...
+2025-04-28 13:27:40,458 - __main__ - INFO - Creating densenet121 model...
+2025-04-28 13:27:40,925 - __main__ - INFO - Training samples: 1843
+2025-04-28 13:27:40,925 - __main__ - INFO - Validation samples: 235
+2025-04-28 13:28:29,878 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 13:28:32,093 - __main__ - INFO - Training DENSENET121 model...
+2025-04-28 13:28:32,094 - __main__ - INFO - Creating densenet121 model...
+2025-04-28 13:28:32,411 - __main__ - INFO - Training samples: 1843
+2025-04-28 13:28:32,413 - __main__ - INFO - Validation samples: 235
+2025-04-28 13:29:46,303 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 13:29:48,589 - __main__ - INFO - Training DENSENET121 model...
+2025-04-28 13:29:48,591 - __main__ - INFO - Creating densenet121 model...
+2025-04-28 13:29:49,047 - __main__ - INFO - Training samples: 1843
+2025-04-28 13:29:49,047 - __main__ - INFO - Validation samples: 235
+2025-04-28 13:30:45,508 - __main__ - INFO - Epoch 1/60 - Train Loss: 0.6459, Train Acc: 0.6240, Val Loss: 0.5600, Val Acc: 0.7745 - Time: 56.46s
+2025-04-28 13:30:45,717 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.7745
+2025-04-28 13:31:40,966 - __main__ - INFO - Epoch 2/60 - Train Loss: 0.5318, Train Acc: 0.7330, Val Loss: 0.4399, Val Acc: 0.7915 - Time: 55.23s
+2025-04-28 13:31:41,188 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.7915
+2025-04-28 13:32:37,282 - __main__ - INFO - Epoch 3/60 - Train Loss: 0.5056, Train Acc: 0.7439, Val Loss: 0.4374, Val Acc: 0.7830 - Time: 56.09s
+2025-04-28 13:33:43,488 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 13:33:45,730 - __main__ - INFO - Training DENSENET121 model...
+2025-04-28 13:33:45,731 - __main__ - INFO - Creating densenet121 model...
+2025-04-28 13:33:46,122 - __main__ - INFO - Training samples: 1843
+2025-04-28 13:33:46,123 - __main__ - INFO - Validation samples: 235
+2025-04-28 13:34:35,738 - __main__ - INFO - Epoch 1/60 - Train Loss: 0.6510, Train Acc: 0.6077, Val Loss: 0.5578, Val Acc: 0.7191 - Time: 49.61s
+2025-04-28 13:34:35,991 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.7191
+2025-04-28 13:35:23,443 - __main__ - INFO - Epoch 2/60 - Train Loss: 0.5522, Train Acc: 0.7227, Val Loss: 0.5380, Val Acc: 0.7021 - Time: 47.45s
+2025-04-28 13:36:10,665 - __main__ - INFO - Epoch 3/60 - Train Loss: 0.5117, Train Acc: 0.7461, Val Loss: 0.4344, Val Acc: 0.7872 - Time: 47.22s
+2025-04-28 13:36:10,907 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.7872
+2025-04-28 13:36:58,031 - __main__ - INFO - Epoch 4/60 - Train Loss: 0.4654, Train Acc: 0.7732, Val Loss: 0.4288, Val Acc: 0.7957 - Time: 47.12s
+2025-04-28 13:36:58,273 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.7957
+2025-04-28 13:37:45,562 - __main__ - INFO - Epoch 5/60 - Train Loss: 0.4203, Train Acc: 0.8063, Val Loss: 0.3226, Val Acc: 0.8553 - Time: 47.29s
+2025-04-28 13:37:45,822 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.8553
+2025-04-28 13:38:32,821 - __main__ - INFO - Epoch 6/60 - Train Loss: 0.4017, Train Acc: 0.8074, Val Loss: 0.3775, Val Acc: 0.8085 - Time: 47.00s
+2025-04-28 13:39:20,267 - __main__ - INFO - Epoch 7/60 - Train Loss: 0.3484, Train Acc: 0.8399, Val Loss: 0.3630, Val Acc: 0.8213 - Time: 47.44s
+2025-04-28 13:40:07,151 - __main__ - INFO - Epoch 8/60 - Train Loss: 0.3509, Train Acc: 0.8492, Val Loss: 0.3901, Val Acc: 0.8383 - Time: 46.88s
+2025-04-28 13:40:54,263 - __main__ - INFO - Epoch 9/60 - Train Loss: 0.2868, Train Acc: 0.8763, Val Loss: 0.8087, Val Acc: 0.7149 - Time: 47.11s
+2025-04-28 13:41:42,482 - __main__ - INFO - Epoch 10/60 - Train Loss: 0.3133, Train Acc: 0.8654, Val Loss: 0.3678, Val Acc: 0.8213 - Time: 48.22s
+2025-04-28 13:42:29,392 - __main__ - INFO - Epoch 11/60 - Train Loss: 0.2590, Train Acc: 0.8899, Val Loss: 0.3952, Val Acc: 0.8638 - Time: 46.91s
+2025-04-28 13:42:29,622 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.8638
+2025-04-28 13:43:16,382 - __main__ - INFO - Epoch 12/60 - Train Loss: 0.1948, Train Acc: 0.9192, Val Loss: 0.2030, Val Acc: 0.9191 - Time: 46.76s
+2025-04-28 13:43:16,634 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9191
+2025-04-28 13:44:03,479 - __main__ - INFO - Epoch 13/60 - Train Loss: 0.1696, Train Acc: 0.9300, Val Loss: 0.2581, Val Acc: 0.9021 - Time: 46.84s
+2025-04-28 13:44:50,278 - __main__ - INFO - Epoch 14/60 - Train Loss: 0.1708, Train Acc: 0.9381, Val Loss: 0.1843, Val Acc: 0.9234 - Time: 46.80s
+2025-04-28 13:44:50,502 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9234
+2025-04-28 13:45:37,655 - __main__ - INFO - Epoch 15/60 - Train Loss: 0.1578, Train Acc: 0.9403, Val Loss: 0.3161, Val Acc: 0.8766 - Time: 47.15s
+2025-04-28 13:46:24,536 - __main__ - INFO - Epoch 16/60 - Train Loss: 0.1546, Train Acc: 0.9360, Val Loss: 0.2628, Val Acc: 0.8936 - Time: 46.88s
+2025-04-28 13:47:11,642 - __main__ - INFO - Epoch 17/60 - Train Loss: 0.1480, Train Acc: 0.9365, Val Loss: 0.1996, Val Acc: 0.9234 - Time: 47.10s
+2025-04-28 13:47:58,573 - __main__ - INFO - Epoch 18/60 - Train Loss: 0.1379, Train Acc: 0.9441, Val Loss: 0.1859, Val Acc: 0.9319 - Time: 46.93s
+2025-04-28 13:47:58,803 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9319
+2025-04-28 13:48:45,699 - __main__ - INFO - Epoch 19/60 - Train Loss: 0.1259, Train Acc: 0.9512, Val Loss: 0.1833, Val Acc: 0.9319 - Time: 46.89s
+2025-04-28 13:49:32,994 - __main__ - INFO - Epoch 20/60 - Train Loss: 0.1110, Train Acc: 0.9566, Val Loss: 0.1862, Val Acc: 0.9149 - Time: 47.29s
+2025-04-28 13:50:19,934 - __main__ - INFO - Epoch 21/60 - Train Loss: 0.1094, Train Acc: 0.9604, Val Loss: 0.1768, Val Acc: 0.9404 - Time: 46.94s
+2025-04-28 13:50:20,175 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9404
+2025-04-28 13:51:07,008 - __main__ - INFO - Epoch 22/60 - Train Loss: 0.1189, Train Acc: 0.9566, Val Loss: 0.1934, Val Acc: 0.9106 - Time: 46.83s
+2025-04-28 13:51:53,814 - __main__ - INFO - Epoch 23/60 - Train Loss: 0.0994, Train Acc: 0.9609, Val Loss: 0.2159, Val Acc: 0.9149 - Time: 46.80s
+2025-04-28 13:52:40,955 - __main__ - INFO - Epoch 24/60 - Train Loss: 0.1007, Train Acc: 0.9598, Val Loss: 0.3299, Val Acc: 0.8936 - Time: 47.14s
+2025-04-28 13:53:27,853 - __main__ - INFO - Epoch 25/60 - Train Loss: 0.0976, Train Acc: 0.9636, Val Loss: 0.2039, Val Acc: 0.9277 - Time: 46.90s
+2025-04-28 13:54:14,606 - __main__ - INFO - Epoch 26/60 - Train Loss: 0.0971, Train Acc: 0.9636, Val Loss: 0.1563, Val Acc: 0.9447 - Time: 46.75s
+2025-04-28 13:54:14,828 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9447
+2025-04-28 13:56:26,398 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 13:56:28,660 - __main__ - INFO - Training RESNET50 model...
+2025-04-28 13:56:28,660 - __main__ - INFO - Creating resnet50 model...
+2025-04-28 13:56:29,368 - __main__ - INFO - Training samples: 1843
+2025-04-28 13:56:29,368 - __main__ - INFO - Validation samples: 235
+2025-04-28 13:57:08,623 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 13:57:10,960 - __main__ - INFO - Training RESNET50 model...
+2025-04-28 13:57:10,960 - __main__ - INFO - Creating resnet50 model...
+2025-04-28 13:57:11,574 - __main__ - INFO - Training samples: 1843
+2025-04-28 13:57:11,576 - __main__ - INFO - Validation samples: 235
+2025-04-28 13:58:54,974 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 13:58:57,230 - __main__ - INFO - Training RESNET50 model...
+2025-04-28 13:58:57,230 - __main__ - INFO - Creating resnet50 model...
+2025-04-28 13:58:57,862 - __main__ - INFO - Training samples: 1843
+2025-04-28 13:58:57,864 - __main__ - INFO - Validation samples: 235
+2025-04-28 14:00:40,881 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 14:00:43,169 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-28 14:00:43,169 - __main__ - INFO - Creating efficientnet model...
+2025-04-28 14:00:43,365 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-28 14:00:44,063 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-28 14:00:44,382 - __main__ - INFO - Training samples: 1843
+2025-04-28 14:00:44,382 - __main__ - INFO - Validation samples: 235
+2025-04-28 14:01:33,795 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 14:01:36,060 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-28 14:01:36,062 - __main__ - INFO - Creating efficientnet model...
+2025-04-28 14:01:36,283 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-28 14:01:36,599 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-28 14:01:36,834 - __main__ - INFO - Training samples: 1843
+2025-04-28 14:01:36,849 - __main__ - INFO - Validation samples: 235
+2025-04-28 14:17:44,571 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 14:17:46,946 - __main__ - INFO - Training DENSENET121 model...
+2025-04-28 14:17:46,946 - __main__ - INFO - Creating densenet121 model...
+2025-04-28 14:17:47,340 - __main__ - INFO - Training samples: 1843
+2025-04-28 14:17:47,340 - __main__ - INFO - Validation samples: 235
+2025-04-28 14:18:36,449 - __main__ - INFO - Epoch 1/60 - Train Loss: 0.6488, Train Acc: 0.6251, Val Loss: 0.5646, Val Acc: 0.7830 - Time: 49.10s
+2025-04-28 14:18:36,699 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.7830
+2025-04-28 14:31:22,826 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 14:31:25,212 - __main__ - INFO - Training DENSENET121 model...
+2025-04-28 14:31:25,212 - __main__ - INFO - Creating densenet121 model...
+2025-04-28 14:31:25,571 - __main__ - INFO - Training samples: 1843
+2025-04-28 14:31:25,573 - __main__ - INFO - Validation samples: 235
+2025-04-28 14:34:21,683 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 14:34:37,050 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 14:37:41,766 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 14:37:44,129 - __main__ - INFO - Training DENSENET121 model...
+2025-04-28 14:37:44,131 - __main__ - INFO - Creating densenet121 model...
+2025-04-28 14:37:44,445 - __main__ - INFO - Training samples: 1843
+2025-04-28 14:37:44,447 - __main__ - INFO - Validation samples: 235
+2025-04-28 14:40:40,242 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 14:40:42,542 - __main__ - INFO - Training DENSENET121 model...
+2025-04-28 14:40:42,546 - __main__ - INFO - Creating densenet121 model...
+2025-04-28 14:40:42,848 - __main__ - INFO - Training samples: 1843
+2025-04-28 14:40:42,850 - __main__ - INFO - Validation samples: 235
+2025-04-28 14:40:42,854 - __main__ - INFO - Training history saved to models_pytorch\densenet121_history.pkl
+2025-04-28 14:40:43,519 - __main__ - INFO - Training RESNET50 model...
+2025-04-28 14:40:43,520 - __main__ - INFO - Creating resnet50 model...
+2025-04-28 14:40:44,108 - __main__ - INFO - Training samples: 1843
+2025-04-28 14:40:44,108 - __main__ - INFO - Validation samples: 235
+2025-04-28 14:40:44,116 - __main__ - INFO - Training history saved to models_pytorch\resnet50_history.pkl
+2025-04-28 14:40:44,504 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-28 14:40:44,506 - __main__ - INFO - Creating efficientnet model...
+2025-04-28 14:40:44,699 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-28 14:40:45,618 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-28 14:40:45,825 - __main__ - INFO - Training samples: 1843
+2025-04-28 14:40:45,827 - __main__ - INFO - Validation samples: 235
+2025-04-28 14:40:45,831 - __main__ - INFO - Training history saved to models_pytorch\efficientnet_history.pkl
+2025-04-28 14:40:46,242 - __main__ - ERROR - Model file not found: models_pytorch\stroke_densenet121.pkl
+2025-04-28 14:40:46,243 - __main__ - ERROR - Model file not found: models_pytorch\stroke_resnet50.pkl
+2025-04-28 14:40:46,245 - __main__ - ERROR - Model file not found: models_pytorch\stroke_efficientnet.pkl
+2025-04-28 14:40:46,265 - __main__ - ERROR - No model evaluation results available.
+2025-04-28 14:40:46,356 - __main__ - WARNING - No models were loaded. Make sure the model files exist.
+2025-04-28 14:40:46,470 - __main__ - WARNING - No models were loaded. Make sure the model files exist.
+2025-04-28 15:03:44,735 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 15:03:47,087 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-28 15:03:47,087 - __main__ - INFO - Creating efficientnet model...
+2025-04-28 15:03:47,290 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-28 15:03:47,792 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-28 15:03:48,036 - __main__ - INFO - Training samples: 1843
+2025-04-28 15:03:48,038 - __main__ - INFO - Validation samples: 235
+2025-04-28 15:04:54,041 - __main__ - INFO - Epoch 1/40 - Train Loss: 0.6299, Train Acc: 0.6229, Val Loss: 0.5908, Val Acc: 0.6596 - Time: 66.00s
+2025-04-28 15:04:54,328 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.6596
+2025-04-28 15:18:22,993 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 15:18:25,966 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-28 15:18:25,966 - __main__ - INFO - Creating efficientnet model...
+2025-04-28 15:18:26,205 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-28 15:18:26,665 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-28 15:18:26,833 - __main__ - INFO - Training samples: 1843
+2025-04-28 15:18:26,835 - __main__ - INFO - Validation samples: 235
+2025-04-28 15:19:52,222 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-28 15:19:54,459 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-28 15:19:54,462 - __main__ - INFO - Creating efficientnet model...
+2025-04-28 15:19:54,693 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-28 15:19:54,964 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-28 15:19:55,105 - __main__ - INFO - Training samples: 1843
+2025-04-28 15:19:55,105 - __main__ - INFO - Validation samples: 235
+2025-04-30 17:21:45,071 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-30 17:21:48,027 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-30 17:21:48,028 - __main__ - INFO - Creating efficientnet model...
+2025-04-30 17:21:48,270 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-30 17:21:48,895 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-30 17:21:49,300 - __main__ - INFO - Training samples: 1843
+2025-04-30 17:21:49,301 - __main__ - INFO - Validation samples: 235
+2025-04-30 18:03:16,634 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-30 18:03:19,559 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-30 18:03:19,560 - __main__ - INFO - Creating efficientnet model...
+2025-04-30 18:03:19,788 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-30 18:03:20,672 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-30 18:03:20,839 - __main__ - INFO - Training samples: 1843
+2025-04-30 18:03:20,842 - __main__ - INFO - Validation samples: 235
+2025-04-30 18:04:08,451 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-30 18:04:10,806 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-30 18:04:10,808 - __main__ - INFO - Creating efficientnet model...
+2025-04-30 18:04:11,007 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-30 18:04:12,415 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-30 18:04:12,644 - __main__ - INFO - Training samples: 1843
+2025-04-30 18:04:12,646 - __main__ - INFO - Validation samples: 235
+2025-04-30 18:05:21,620 - __main__ - INFO - Epoch 1/40 - Train Loss: 0.6278, Train Acc: 0.6278, Val Loss: 0.5400, Val Acc: 0.7362 - Time: 68.97s
+2025-04-30 18:05:21,925 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.7362
+2025-04-30 18:30:46,186 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-30 18:30:48,693 - __main__ - INFO - Training EFFICIENTNET B3 model...
+2025-04-30 18:30:48,694 - __main__ - INFO - Creating efficientnet model...
+2025-04-30 18:30:48,892 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-30 18:30:49,798 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-30 18:30:50,025 - __main__ - INFO - Training samples: 1843
+2025-04-30 18:30:50,026 - __main__ - INFO - Validation samples: 235
+2025-04-30 18:36:07,905 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-30 18:36:10,266 - __main__ - INFO - Training EFFICIENTNET B3 model...
+2025-04-30 18:36:10,271 - __main__ - INFO - Creating efficientnet model...
+2025-04-30 18:36:10,488 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-30 18:36:12,594 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-30 18:36:12,826 - __main__ - INFO - Training samples: 1843
+2025-04-30 18:36:12,827 - __main__ - INFO - Validation samples: 235
+2025-04-30 18:37:02,453 - __main__ - INFO - Epoch 1/40 - Train Loss: 0.6273, Train Acc: 0.6305, Train Prec: 0.5882, Train F1: 0.4234, Train AUC: 0.6758, Val Loss: 0.5627, Val Acc: 0.6936, Val Prec: 0.5300, Val F1: 0.5955, Val AUC: 0.7756 - Time: 49.62s
+2025-04-30 18:37:02,764 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.6936
+2025-04-30 18:37:52,386 - __main__ - INFO - Epoch 2/40 - Train Loss: 0.5245, Train Acc: 0.7358, Train Prec: 0.6700, Train F1: 0.6852, Train AUC: 0.8069, Val Loss: 0.4698, Val Acc: 0.7489, Val Prec: 0.6067, Val F1: 0.6467, Val AUC: 0.8507 - Time: 49.61s
+2025-04-30 18:37:52,628 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.7489
+2025-04-30 18:38:42,631 - __main__ - INFO - Epoch 3/40 - Train Loss: 0.4386, Train Acc: 0.7960, Train Prec: 0.7474, Train F1: 0.7533, Train AUC: 0.8728, Val Loss: 0.4113, Val Acc: 0.8085, Val Prec: 0.6737, Val F1: 0.7399, Val AUC: 0.9014 - Time: 50.00s
+2025-04-30 18:38:42,884 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8085
+2025-04-30 18:39:31,574 - __main__ - INFO - Epoch 4/40 - Train Loss: 0.4096, Train Acc: 0.8128, Train Prec: 0.7645, Train F1: 0.7750, Train AUC: 0.8898, Val Loss: 0.3503, Val Acc: 0.8553, Val Prec: 0.7619, Val F1: 0.7901, Val AUC: 0.9256 - Time: 48.69s
+2025-04-30 18:39:31,841 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8553
+2025-04-30 18:40:21,201 - __main__ - INFO - Epoch 5/40 - Train Loss: 0.3540, Train Acc: 0.8486, Train Prec: 0.8167, Train F1: 0.8151, Train AUC: 0.9199, Val Loss: 0.3061, Val Acc: 0.8681, Val Prec: 0.7765, Val F1: 0.8098, Val AUC: 0.9368 - Time: 49.36s
+2025-04-30 18:40:21,499 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8681
+2025-04-30 18:41:42,762 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-30 18:41:45,208 - __main__ - INFO - Training EFFICIENTNET B3 model...
+2025-04-30 18:41:45,210 - __main__ - INFO - Creating efficientnet model...
+2025-04-30 18:41:45,446 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-30 18:41:46,119 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-30 18:41:46,346 - __main__ - INFO - Training samples: 1843
+2025-04-30 18:41:46,346 - __main__ - INFO - Validation samples: 235
+2025-04-30 18:43:14,030 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-30 18:43:16,477 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-30 18:43:16,478 - __main__ - INFO - Creating efficientnet model...
+2025-04-30 18:43:16,678 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-30 18:43:17,644 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-30 18:43:17,876 - __main__ - INFO - Training samples: 1843
+2025-04-30 18:43:17,877 - __main__ - INFO - Validation samples: 235
+2025-04-30 18:44:07,219 - __main__ - INFO - Epoch 1/40 - Train Loss: 0.6284, Train Acc: 0.6310, Train Prec: 0.5896, Train F1: 0.4237, Train AUC: 0.6742, Val Loss: 0.5316, Val Acc: 0.7319, Val Prec: 0.5949, Val F1: 0.5987, Val AUC: 0.7897 - Time: 49.34s
+2025-04-30 18:44:07,486 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.7319
+2025-04-30 18:44:55,961 - __main__ - INFO - Epoch 2/40 - Train Loss: 0.5214, Train Acc: 0.7390, Train Prec: 0.6779, Train F1: 0.6854, Train AUC: 0.8109, Val Loss: 0.5062, Val Acc: 0.7660, Val Prec: 0.6075, Val F1: 0.7027, Val AUC: 0.8422 - Time: 48.48s
+2025-04-30 18:44:56,224 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.7660
+2025-04-30 18:45:44,548 - __main__ - INFO - Epoch 3/40 - Train Loss: 0.4420, Train Acc: 0.7933, Train Prec: 0.7401, Train F1: 0.7521, Train AUC: 0.8701, Val Loss: 0.4290, Val Acc: 0.7957, Val Prec: 0.6630, Val F1: 0.7176, Val AUC: 0.8843 - Time: 48.32s
+2025-04-30 18:45:44,807 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.7957
+2025-04-30 18:46:33,018 - __main__ - INFO - Epoch 4/40 - Train Loss: 0.4058, Train Acc: 0.8171, Train Prec: 0.7724, Train F1: 0.7790, Train AUC: 0.8925, Val Loss: 0.4082, Val Acc: 0.8043, Val Prec: 0.6633, Val F1: 0.7386, Val AUC: 0.9048 - Time: 48.21s
+2025-04-30 18:46:33,269 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8043
+2025-04-30 18:47:33,888 - __main__ - INFO - Epoch 5/40 - Train Loss: 0.3526, Train Acc: 0.8329, Train Prec: 0.7955, Train F1: 0.7966, Train AUC: 0.9194, Val Loss: 0.3576, Val Acc: 0.8468, Val Prec: 0.7283, Val F1: 0.7882, Val AUC: 0.9163 - Time: 60.62s
+2025-04-30 18:47:34,146 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8468
+2025-04-30 18:48:41,324 - __main__ - INFO - Epoch 6/40 - Train Loss: 0.2718, Train Acc: 0.8882, Train Prec: 0.8599, Train F1: 0.8645, Train AUC: 0.9534, Val Loss: 0.3509, Val Acc: 0.8298, Val Prec: 0.7159, Val F1: 0.7590, Val AUC: 0.9151 - Time: 67.18s
+2025-04-30 18:49:48,366 - __main__ - INFO - Epoch 7/40 - Train Loss: 0.2836, Train Acc: 0.8828, Train Prec: 0.8543, Train F1: 0.8577, Train AUC: 0.9497, Val Loss: 0.3166, Val Acc: 0.8809, Val Prec: 0.7841, Val F1: 0.8313, Val AUC: 0.9419 - Time: 67.04s
+2025-04-30 18:49:48,634 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8809
+2025-04-30 18:50:36,702 - __main__ - INFO - Epoch 8/40 - Train Loss: 0.2351, Train Acc: 0.9040, Train Prec: 0.8726, Train F1: 0.8845, Train AUC: 0.9649, Val Loss: 0.2772, Val Acc: 0.8809, Val Prec: 0.7976, Val F1: 0.8272, Val AUC: 0.9502 - Time: 48.07s
+2025-04-30 18:51:24,765 - __main__ - INFO - Epoch 9/40 - Train Loss: 0.2005, Train Acc: 0.9213, Train Prec: 0.9046, Train F1: 0.9040, Train AUC: 0.9745, Val Loss: 0.2509, Val Acc: 0.9021, Val Prec: 0.8767, Val F1: 0.8477, Val AUC: 0.9582 - Time: 48.06s
+2025-04-30 18:51:25,019 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9021
+2025-04-30 18:52:13,195 - __main__ - INFO - Epoch 10/40 - Train Loss: 0.1981, Train Acc: 0.9230, Train Prec: 0.9039, Train F1: 0.9063, Train AUC: 0.9753, Val Loss: 0.3073, Val Acc: 0.8553, Val Prec: 0.7391, Val F1: 0.8000, Val AUC: 0.9465 - Time: 48.17s
+2025-04-30 18:53:01,336 - __main__ - INFO - Epoch 11/40 - Train Loss: 0.2039, Train Acc: 0.9219, Train Prec: 0.8953, Train F1: 0.9059, Train AUC: 0.9736, Val Loss: 0.2419, Val Acc: 0.9064, Val Prec: 0.8889, Val F1: 0.8533, Val AUC: 0.9610 - Time: 48.14s
+2025-04-30 18:53:01,610 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9064
+2025-04-30 18:53:49,706 - __main__ - INFO - Epoch 12/40 - Train Loss: 0.1612, Train Acc: 0.9430, Train Prec: 0.9289, Train F1: 0.9307, Train AUC: 0.9830, Val Loss: 0.2934, Val Acc: 0.8894, Val Prec: 0.8023, Val F1: 0.8415, Val AUC: 0.9574 - Time: 48.09s
+2025-04-30 18:54:37,823 - __main__ - INFO - Epoch 13/40 - Train Loss: 0.1498, Train Acc: 0.9436, Train Prec: 0.9245, Train F1: 0.9318, Train AUC: 0.9852, Val Loss: 0.2037, Val Acc: 0.9191, Val Prec: 0.8831, Val F1: 0.8774, Val AUC: 0.9699 - Time: 48.12s
+2025-04-30 18:54:38,083 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9191
+2025-04-30 18:55:26,231 - __main__ - INFO - Epoch 14/40 - Train Loss: 0.1400, Train Acc: 0.9485, Train Prec: 0.9389, Train F1: 0.9370, Train AUC: 0.9872, Val Loss: 0.1952, Val Acc: 0.9234, Val Prec: 0.8409, Val F1: 0.8916, Val AUC: 0.9804 - Time: 48.15s
+2025-04-30 18:55:26,480 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9234
+2025-04-30 18:56:14,731 - __main__ - INFO - Epoch 15/40 - Train Loss: 0.1183, Train Acc: 0.9571, Train Prec: 0.9507, Train F1: 0.9476, Train AUC: 0.9909, Val Loss: 0.2944, Val Acc: 0.8936, Val Prec: 0.7732, Val F1: 0.8571, Val AUC: 0.9716 - Time: 48.25s
+2025-04-30 18:57:02,934 - __main__ - INFO - Epoch 16/40 - Train Loss: 0.1096, Train Acc: 0.9582, Train Prec: 0.9461, Train F1: 0.9492, Train AUC: 0.9916, Val Loss: 0.1238, Val Acc: 0.9660, Val Prec: 0.9375, Val F1: 0.9494, Val AUC: 0.9876 - Time: 48.20s
+2025-04-30 18:57:03,187 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9660
+2025-04-30 18:57:51,991 - __main__ - INFO - Epoch 17/40 - Train Loss: 0.1080, Train Acc: 0.9582, Train Prec: 0.9509, Train F1: 0.9490, Train AUC: 0.9929, Val Loss: 0.1308, Val Acc: 0.9660, Val Prec: 0.9268, Val F1: 0.9500, Val AUC: 0.9841 - Time: 48.80s
+2025-04-30 18:58:40,298 - __main__ - INFO - Epoch 18/40 - Train Loss: 0.0925, Train Acc: 0.9685, Train Prec: 0.9604, Train F1: 0.9617, Train AUC: 0.9940, Val Loss: 0.2503, Val Acc: 0.9106, Val Prec: 0.9014, Val F1: 0.8591, Val AUC: 0.9721 - Time: 48.30s
+2025-04-30 18:59:28,655 - __main__ - INFO - Epoch 19/40 - Train Loss: 0.0943, Train Acc: 0.9653, Train Prec: 0.9626, Train F1: 0.9574, Train AUC: 0.9939, Val Loss: 0.1544, Val Acc: 0.9362, Val Prec: 0.8889, Val F1: 0.9057, Val AUC: 0.9873 - Time: 48.36s
+2025-04-30 19:00:17,001 - __main__ - INFO - Epoch 20/40 - Train Loss: 0.0976, Train Acc: 0.9620, Train Prec: 0.9537, Train F1: 0.9537, Train AUC: 0.9936, Val Loss: 0.1705, Val Acc: 0.9404, Val Prec: 0.9571, Val F1: 0.9054, Val AUC: 0.9793 - Time: 48.35s
+2025-04-30 19:01:05,428 - __main__ - INFO - Epoch 21/40 - Train Loss: 0.0893, Train Acc: 0.9653, Train Prec: 0.9541, Train F1: 0.9578, Train AUC: 0.9948, Val Loss: 0.2013, Val Acc: 0.9277, Val Prec: 0.8675, Val F1: 0.8944, Val AUC: 0.9780 - Time: 48.43s
+2025-04-30 19:01:53,738 - __main__ - INFO - Epoch 22/40 - Train Loss: 0.0807, Train Acc: 0.9696, Train Prec: 0.9642, Train F1: 0.9629, Train AUC: 0.9953, Val Loss: 0.1706, Val Acc: 0.9489, Val Prec: 0.8837, Val F1: 0.9268, Val AUC: 0.9869 - Time: 48.31s
+2025-04-30 19:02:42,232 - __main__ - INFO - Epoch 23/40 - Train Loss: 0.0442, Train Acc: 0.9848, Train Prec: 0.9828, Train F1: 0.9815, Train AUC: 0.9989, Val Loss: 0.1223, Val Acc: 0.9532, Val Prec: 0.9036, Val F1: 0.9317, Val AUC: 0.9909 - Time: 48.49s
+2025-04-30 19:03:30,725 - __main__ - INFO - Epoch 24/40 - Train Loss: 0.0274, Train Acc: 0.9897, Train Prec: 0.9855, Train F1: 0.9875, Train AUC: 0.9996, Val Loss: 0.1660, Val Acc: 0.9404, Val Prec: 0.9000, Val F1: 0.9114, Val AUC: 0.9874 - Time: 48.49s
+2025-04-30 19:04:19,239 - __main__ - INFO - Epoch 25/40 - Train Loss: 0.0360, Train Acc: 0.9864, Train Prec: 0.9803, Train F1: 0.9835, Train AUC: 0.9991, Val Loss: 0.1647, Val Acc: 0.9532, Val Prec: 0.8941, Val F1: 0.9325, Val AUC: 0.9900 - Time: 48.51s
+2025-04-30 19:05:07,752 - __main__ - INFO - Epoch 26/40 - Train Loss: 0.0569, Train Acc: 0.9864, Train Prec: 0.9893, Train F1: 0.9834, Train AUC: 0.9964, Val Loss: 0.1389, Val Acc: 0.9489, Val Prec: 0.9024, Val F1: 0.9250, Val AUC: 0.9905 - Time: 48.51s
+2025-04-30 19:05:56,342 - __main__ - INFO - Epoch 27/40 - Train Loss: 0.0395, Train Acc: 0.9853, Train Prec: 0.9841, Train F1: 0.9821, Train AUC: 0.9991, Val Loss: 0.1829, Val Acc: 0.9362, Val Prec: 0.8987, Val F1: 0.9045, Val AUC: 0.9866 - Time: 48.59s
+2025-04-30 19:06:44,768 - __main__ - INFO - Epoch 28/40 - Train Loss: 0.0331, Train Acc: 0.9886, Train Prec: 0.9868, Train F1: 0.9861, Train AUC: 0.9993, Val Loss: 0.1173, Val Acc: 0.9574, Val Prec: 0.9250, Val F1: 0.9367, Val AUC: 0.9928 - Time: 48.43s
+2025-04-30 19:07:33,295 - __main__ - INFO - Epoch 29/40 - Train Loss: 0.0314, Train Acc: 0.9881, Train Prec: 0.9880, Train F1: 0.9854, Train AUC: 0.9993, Val Loss: 0.1610, Val Acc: 0.9362, Val Prec: 0.8889, Val F1: 0.9057, Val AUC: 0.9900 - Time: 48.53s
+2025-04-30 19:08:21,832 - __main__ - INFO - Epoch 30/40 - Train Loss: 0.0471, Train Acc: 0.9832, Train Prec: 0.9814, Train F1: 0.9795, Train AUC: 0.9982, Val Loss: 0.1651, Val Acc: 0.9489, Val Prec: 0.8929, Val F1: 0.9259, Val AUC: 0.9909 - Time: 48.54s
+2025-04-30 19:09:10,431 - __main__ - INFO - Epoch 31/40 - Train Loss: 0.0263, Train Acc: 0.9913, Train Prec: 0.9907, Train F1: 0.9894, Train AUC: 0.9996, Val Loss: 0.1327, Val Acc: 0.9617, Val Prec: 0.9259, Val F1: 0.9434, Val AUC: 0.9917 - Time: 48.60s
+2025-04-30 19:09:58,973 - __main__ - INFO - Epoch 32/40 - Train Loss: 0.0176, Train Acc: 0.9940, Train Prec: 0.9947, Train F1: 0.9927, Train AUC: 0.9999, Val Loss: 0.1107, Val Acc: 0.9702, Val Prec: 0.9610, Val F1: 0.9548, Val AUC: 0.9934 - Time: 48.54s
+2025-04-30 19:09:59,232 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9702
+2025-04-30 19:10:47,766 - __main__ - INFO - Epoch 33/40 - Train Loss: 0.0486, Train Acc: 0.9837, Train Prec: 0.9827, Train F1: 0.9801, Train AUC: 0.9976, Val Loss: 0.1662, Val Acc: 0.9532, Val Prec: 0.9241, Val F1: 0.9299, Val AUC: 0.9861 - Time: 48.53s
+2025-04-30 19:11:36,111 - __main__ - INFO - Epoch 34/40 - Train Loss: 0.0221, Train Acc: 0.9913, Train Prec: 0.9894, Train F1: 0.9894, Train AUC: 0.9997, Val Loss: 0.1736, Val Acc: 0.9489, Val Prec: 0.9024, Val F1: 0.9250, Val AUC: 0.9837 - Time: 48.34s
+2025-04-30 19:12:24,756 - __main__ - INFO - Epoch 35/40 - Train Loss: 0.0301, Train Acc: 0.9897, Train Prec: 0.9881, Train F1: 0.9874, Train AUC: 0.9993, Val Loss: 0.1303, Val Acc: 0.9489, Val Prec: 0.9125, Val F1: 0.9241, Val AUC: 0.9924 - Time: 48.64s
+2025-04-30 19:13:13,226 - __main__ - INFO - Epoch 36/40 - Train Loss: 0.0260, Train Acc: 0.9891, Train Prec: 0.9868, Train F1: 0.9868, Train AUC: 0.9996, Val Loss: 0.2320, Val Acc: 0.9362, Val Prec: 0.8462, Val F1: 0.9112, Val AUC: 0.9915 - Time: 48.47s
+2025-04-30 19:14:01,658 - __main__ - INFO - Epoch 37/40 - Train Loss: 0.0306, Train Acc: 0.9908, Train Prec: 0.9868, Train F1: 0.9888, Train AUC: 0.9990, Val Loss: 0.2163, Val Acc: 0.9362, Val Prec: 0.8706, Val F1: 0.9080, Val AUC: 0.9876 - Time: 48.43s
+2025-04-30 19:14:50,080 - __main__ - INFO - Epoch 38/40 - Train Loss: 0.0317, Train Acc: 0.9886, Train Prec: 0.9855, Train F1: 0.9861, Train AUC: 0.9993, Val Loss: 0.1611, Val Acc: 0.9489, Val Prec: 0.9024, Val F1: 0.9250, Val AUC: 0.9923 - Time: 48.42s
+2025-04-30 19:15:38,884 - __main__ - INFO - Epoch 39/40 - Train Loss: 0.0267, Train Acc: 0.9908, Train Prec: 0.9894, Train F1: 0.9887, Train AUC: 0.9994, Val Loss: 0.1354, Val Acc: 0.9532, Val Prec: 0.9036, Val F1: 0.9317, Val AUC: 0.9949 - Time: 48.80s
+2025-04-30 19:16:28,632 - __main__ - INFO - Epoch 40/40 - Train Loss: 0.0246, Train Acc: 0.9908, Train Prec: 0.9894, Train F1: 0.9887, Train AUC: 0.9997, Val Loss: 0.1573, Val Acc: 0.9574, Val Prec: 0.8864, Val F1: 0.9398, Val AUC: 0.9940 - Time: 49.75s
+2025-04-30 19:16:28,632 - __main__ - INFO - Total training time: 1990.75 seconds
+2025-04-30 19:16:31,166 - __main__ - ERROR - Model file not found: models_pytorch\stroke_densenet121.pkl
+2025-04-30 19:16:31,167 - __main__ - ERROR - Model file not found: models_pytorch\stroke_resnet50.pkl
+2025-04-30 19:16:31,169 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-30 19:16:31,367 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-30 19:16:31,370 - __main__ - INFO - Test samples: 437
+2025-04-30 21:17:20,765 - __main__ - INFO - Using GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+2025-04-30 21:17:23,146 - __main__ - INFO - Training DENSENET121 model...
+2025-04-30 21:17:23,147 - __main__ - INFO - Creating densenet121 model...
+2025-04-30 21:17:23,687 - __main__ - INFO - Training samples: 1843
+2025-04-30 21:17:23,688 - __main__ - INFO - Validation samples: 235
+2025-04-30 21:18:13,251 - __main__ - INFO - Epoch 1/60 - Train Loss: 0.6531, Train Acc: 0.6137, Val Loss: 0.5432, Val Acc: 0.7532 - Time: 49.56s
+2025-04-30 21:18:13,535 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.7532
+2025-04-30 21:18:59,704 - __main__ - INFO - Epoch 2/60 - Train Loss: 0.5593, Train Acc: 0.7032, Val Loss: 0.5564, Val Acc: 0.7234 - Time: 46.17s
+2025-04-30 21:19:45,777 - __main__ - INFO - Epoch 3/60 - Train Loss: 0.5171, Train Acc: 0.7401, Val Loss: 0.4780, Val Acc: 0.7830 - Time: 46.07s
+2025-04-30 21:19:46,015 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.7830
+2025-04-30 21:20:32,498 - __main__ - INFO - Epoch 4/60 - Train Loss: 0.4800, Train Acc: 0.7748, Val Loss: 0.4467, Val Acc: 0.8000 - Time: 46.48s
+2025-04-30 21:20:32,745 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.8000
+2025-04-30 21:21:18,901 - __main__ - INFO - Epoch 5/60 - Train Loss: 0.4329, Train Acc: 0.8036, Val Loss: 0.5401, Val Acc: 0.7532 - Time: 46.15s
+2025-04-30 21:22:05,212 - __main__ - INFO - Epoch 6/60 - Train Loss: 0.3863, Train Acc: 0.8177, Val Loss: 0.5178, Val Acc: 0.7489 - Time: 46.31s
+2025-04-30 21:22:51,369 - __main__ - INFO - Epoch 7/60 - Train Loss: 0.3672, Train Acc: 0.8383, Val Loss: 0.3931, Val Acc: 0.7872 - Time: 46.16s
+2025-04-30 21:23:37,677 - __main__ - INFO - Epoch 8/60 - Train Loss: 0.3486, Train Acc: 0.8535, Val Loss: 0.3287, Val Acc: 0.8766 - Time: 46.31s
+2025-04-30 21:23:37,943 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.8766
+2025-04-30 21:24:24,318 - __main__ - INFO - Epoch 9/60 - Train Loss: 0.3155, Train Acc: 0.8681, Val Loss: 0.4286, Val Acc: 0.8085 - Time: 46.37s
+2025-04-30 21:25:10,632 - __main__ - INFO - Epoch 10/60 - Train Loss: 0.3050, Train Acc: 0.8644, Val Loss: 0.3389, Val Acc: 0.8426 - Time: 46.31s
+2025-04-30 21:25:57,386 - __main__ - INFO - Epoch 11/60 - Train Loss: 0.2831, Train Acc: 0.8774, Val Loss: 0.3477, Val Acc: 0.8511 - Time: 46.75s
+2025-04-30 21:26:43,532 - __main__ - INFO - Epoch 12/60 - Train Loss: 0.2656, Train Acc: 0.8904, Val Loss: 0.2299, Val Acc: 0.9064 - Time: 46.15s
+2025-04-30 21:26:43,776 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9064
+2025-04-30 21:27:30,091 - __main__ - INFO - Epoch 13/60 - Train Loss: 0.2503, Train Acc: 0.8942, Val Loss: 0.2944, Val Acc: 0.8723 - Time: 46.31s
+2025-04-30 21:28:16,244 - __main__ - INFO - Epoch 14/60 - Train Loss: 0.2256, Train Acc: 0.9072, Val Loss: 0.2739, Val Acc: 0.8638 - Time: 46.15s
+2025-04-30 21:29:02,224 - __main__ - INFO - Epoch 15/60 - Train Loss: 0.2399, Train Acc: 0.9012, Val Loss: 0.3125, Val Acc: 0.8809 - Time: 45.98s
+2025-04-30 21:29:48,168 - __main__ - INFO - Epoch 16/60 - Train Loss: 0.2156, Train Acc: 0.9154, Val Loss: 0.2251, Val Acc: 0.9234 - Time: 45.94s
+2025-04-30 21:29:48,404 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9234
+2025-04-30 21:30:34,619 - __main__ - INFO - Epoch 17/60 - Train Loss: 0.1817, Train Acc: 0.9295, Val Loss: 0.2118, Val Acc: 0.9191 - Time: 46.21s
+2025-04-30 21:31:20,541 - __main__ - INFO - Epoch 18/60 - Train Loss: 0.1841, Train Acc: 0.9300, Val Loss: 0.2575, Val Acc: 0.8979 - Time: 45.92s
+2025-04-30 21:32:06,525 - __main__ - INFO - Epoch 19/60 - Train Loss: 0.1504, Train Acc: 0.9436, Val Loss: 0.1616, Val Acc: 0.9277 - Time: 45.98s
+2025-04-30 21:32:06,764 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9277
+2025-04-30 21:32:52,907 - __main__ - INFO - Epoch 20/60 - Train Loss: 0.1735, Train Acc: 0.9322, Val Loss: 0.1952, Val Acc: 0.9149 - Time: 46.14s
+2025-04-30 21:33:39,037 - __main__ - INFO - Epoch 21/60 - Train Loss: 0.1599, Train Acc: 0.9392, Val Loss: 0.2646, Val Acc: 0.8979 - Time: 46.13s
+2025-04-30 21:34:25,208 - __main__ - INFO - Epoch 22/60 - Train Loss: 0.1526, Train Acc: 0.9387, Val Loss: 0.2643, Val Acc: 0.8723 - Time: 46.17s
+2025-04-30 21:35:11,190 - __main__ - INFO - Epoch 23/60 - Train Loss: 0.1467, Train Acc: 0.9501, Val Loss: 0.3394, Val Acc: 0.8766 - Time: 45.98s
+2025-04-30 21:35:56,932 - __main__ - INFO - Epoch 24/60 - Train Loss: 0.1229, Train Acc: 0.9566, Val Loss: 0.3113, Val Acc: 0.8809 - Time: 45.74s
+2025-04-30 21:36:42,950 - __main__ - INFO - Epoch 25/60 - Train Loss: 0.1592, Train Acc: 0.9425, Val Loss: 0.1697, Val Acc: 0.9191 - Time: 46.02s
+2025-04-30 21:37:29,359 - __main__ - INFO - Epoch 26/60 - Train Loss: 0.0958, Train Acc: 0.9647, Val Loss: 0.1887, Val Acc: 0.9362 - Time: 46.41s
+2025-04-30 21:37:29,595 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9362
+2025-04-30 21:38:15,351 - __main__ - INFO - Epoch 27/60 - Train Loss: 0.0766, Train Acc: 0.9718, Val Loss: 0.2627, Val Acc: 0.9234 - Time: 45.75s
+2025-04-30 21:39:01,254 - __main__ - INFO - Epoch 28/60 - Train Loss: 0.0954, Train Acc: 0.9620, Val Loss: 0.1925, Val Acc: 0.9064 - Time: 45.90s
+2025-04-30 21:39:47,274 - __main__ - INFO - Epoch 29/60 - Train Loss: 0.0739, Train Acc: 0.9712, Val Loss: 0.1637, Val Acc: 0.9319 - Time: 46.02s
+2025-04-30 21:40:33,022 - __main__ - INFO - Epoch 30/60 - Train Loss: 0.0457, Train Acc: 0.9826, Val Loss: 0.2000, Val Acc: 0.9277 - Time: 45.75s
+2025-04-30 21:41:18,810 - __main__ - INFO - Epoch 31/60 - Train Loss: 0.0804, Train Acc: 0.9707, Val Loss: 0.1527, Val Acc: 0.9362 - Time: 45.79s
+2025-04-30 21:42:04,563 - __main__ - INFO - Epoch 32/60 - Train Loss: 0.0628, Train Acc: 0.9761, Val Loss: 0.1360, Val Acc: 0.9447 - Time: 45.75s
+2025-04-30 21:42:04,804 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9447
+2025-04-30 21:42:51,007 - __main__ - INFO - Epoch 33/60 - Train Loss: 0.0574, Train Acc: 0.9788, Val Loss: 0.2148, Val Acc: 0.9277 - Time: 46.20s
+2025-04-30 21:43:36,807 - __main__ - INFO - Epoch 34/60 - Train Loss: 0.0767, Train Acc: 0.9685, Val Loss: 0.1746, Val Acc: 0.9191 - Time: 45.80s
+2025-04-30 21:44:22,771 - __main__ - INFO - Epoch 35/60 - Train Loss: 0.0667, Train Acc: 0.9778, Val Loss: 0.1447, Val Acc: 0.9362 - Time: 45.96s
+2025-04-30 21:45:08,718 - __main__ - INFO - Epoch 36/60 - Train Loss: 0.0436, Train Acc: 0.9864, Val Loss: 0.1078, Val Acc: 0.9532 - Time: 45.95s
+2025-04-30 21:45:08,982 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9532
+2025-04-30 21:45:54,974 - __main__ - INFO - Epoch 37/60 - Train Loss: 0.0525, Train Acc: 0.9826, Val Loss: 0.2136, Val Acc: 0.9234 - Time: 45.99s
+2025-04-30 21:46:41,026 - __main__ - INFO - Epoch 38/60 - Train Loss: 0.0576, Train Acc: 0.9821, Val Loss: 0.1277, Val Acc: 0.9234 - Time: 46.05s
+2025-04-30 21:47:27,073 - __main__ - INFO - Epoch 39/60 - Train Loss: 0.1102, Train Acc: 0.9615, Val Loss: 0.1231, Val Acc: 0.9447 - Time: 46.05s
+2025-04-30 21:48:13,436 - __main__ - INFO - Epoch 40/60 - Train Loss: 0.0510, Train Acc: 0.9799, Val Loss: 0.1635, Val Acc: 0.9362 - Time: 46.36s
+2025-04-30 21:48:59,368 - __main__ - INFO - Epoch 41/60 - Train Loss: 0.0536, Train Acc: 0.9794, Val Loss: 0.1648, Val Acc: 0.9574 - Time: 45.93s
+2025-04-30 21:48:59,626 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9574
+2025-04-30 21:49:45,562 - __main__ - INFO - Epoch 42/60 - Train Loss: 0.0367, Train Acc: 0.9870, Val Loss: 0.2413, Val Acc: 0.9319 - Time: 45.94s
+2025-04-30 21:50:31,748 - __main__ - INFO - Epoch 43/60 - Train Loss: 0.0527, Train Acc: 0.9826, Val Loss: 0.1330, Val Acc: 0.9447 - Time: 46.18s
+2025-04-30 21:51:17,902 - __main__ - INFO - Epoch 44/60 - Train Loss: 0.0361, Train Acc: 0.9875, Val Loss: 0.1623, Val Acc: 0.9489 - Time: 46.15s
+2025-04-30 21:52:03,959 - __main__ - INFO - Epoch 45/60 - Train Loss: 0.0343, Train Acc: 0.9881, Val Loss: 0.1904, Val Acc: 0.9277 - Time: 46.06s
+2025-04-30 21:52:49,947 - __main__ - INFO - Epoch 46/60 - Train Loss: 0.0268, Train Acc: 0.9908, Val Loss: 0.1580, Val Acc: 0.9319 - Time: 45.99s
+2025-04-30 21:53:35,864 - __main__ - INFO - Epoch 47/60 - Train Loss: 0.0195, Train Acc: 0.9946, Val Loss: 0.1072, Val Acc: 0.9660 - Time: 45.92s
+2025-04-30 21:53:36,141 - __main__ - INFO - Best model saved to models_pytorch\stroke_densenet121_best.pkl with validation accuracy: 0.9660
+2025-04-30 21:54:22,254 - __main__ - INFO - Epoch 48/60 - Train Loss: 0.0263, Train Acc: 0.9913, Val Loss: 0.1016, Val Acc: 0.9660 - Time: 46.11s
+2025-04-30 21:55:08,438 - __main__ - INFO - Epoch 49/60 - Train Loss: 0.0331, Train Acc: 0.9881, Val Loss: 0.0799, Val Acc: 0.9617 - Time: 46.18s
+2025-04-30 21:55:54,571 - __main__ - INFO - Epoch 50/60 - Train Loss: 0.0312, Train Acc: 0.9913, Val Loss: 0.1162, Val Acc: 0.9617 - Time: 46.13s
+2025-04-30 21:56:46,068 - __main__ - INFO - Epoch 51/60 - Train Loss: 0.0154, Train Acc: 0.9951, Val Loss: 0.1034, Val Acc: 0.9617 - Time: 51.50s
+2025-04-30 21:57:33,669 - __main__ - INFO - Epoch 52/60 - Train Loss: 0.0246, Train Acc: 0.9913, Val Loss: 0.1059, Val Acc: 0.9660 - Time: 47.60s
+2025-04-30 21:58:19,958 - __main__ - INFO - Epoch 53/60 - Train Loss: 0.0251, Train Acc: 0.9935, Val Loss: 0.1535, Val Acc: 0.9404 - Time: 46.29s
+2025-04-30 21:59:05,887 - __main__ - INFO - Epoch 54/60 - Train Loss: 0.0287, Train Acc: 0.9897, Val Loss: 0.1574, Val Acc: 0.9362 - Time: 45.93s
+2025-04-30 21:59:51,871 - __main__ - INFO - Epoch 55/60 - Train Loss: 0.0254, Train Acc: 0.9913, Val Loss: 0.1471, Val Acc: 0.9362 - Time: 45.98s
+2025-04-30 22:00:38,280 - __main__ - INFO - Epoch 56/60 - Train Loss: 0.0160, Train Acc: 0.9957, Val Loss: 0.1174, Val Acc: 0.9362 - Time: 46.41s
+2025-04-30 22:01:24,701 - __main__ - INFO - Epoch 57/60 - Train Loss: 0.0151, Train Acc: 0.9951, Val Loss: 0.0849, Val Acc: 0.9660 - Time: 46.42s
+2025-04-30 22:02:10,757 - __main__ - INFO - Epoch 58/60 - Train Loss: 0.0127, Train Acc: 0.9967, Val Loss: 0.1064, Val Acc: 0.9532 - Time: 46.06s
+2025-04-30 22:02:56,723 - __main__ - INFO - Epoch 59/60 - Train Loss: 0.0344, Train Acc: 0.9908, Val Loss: 0.0956, Val Acc: 0.9532 - Time: 45.96s
+2025-04-30 22:03:42,629 - __main__ - INFO - Epoch 60/60 - Train Loss: 0.0240, Train Acc: 0.9924, Val Loss: 0.1104, Val Acc: 0.9447 - Time: 45.91s
+2025-04-30 22:03:42,631 - __main__ - INFO - Training completed in 2778.94s
+2025-04-30 22:03:42,872 - __main__ - INFO - Final model saved to models_pytorch\stroke_densenet121.pkl
+2025-04-30 22:03:42,874 - __main__ - INFO - Training history saved to models_pytorch\densenet121_history.pkl
+2025-04-30 22:03:43,555 - __main__ - INFO - Training RESNET50 model...
+2025-04-30 22:03:43,557 - __main__ - INFO - Creating resnet50 model...
+2025-04-30 22:03:44,187 - __main__ - INFO - Training samples: 1843
+2025-04-30 22:03:44,189 - __main__ - INFO - Validation samples: 235
+2025-04-30 22:04:25,589 - __main__ - INFO - Epoch 1/50 - Train Loss: 0.6381, Train Acc: 0.6283, Val Loss: 0.8556, Val Acc: 0.4170 - Time: 41.40s
+2025-04-30 22:04:25,909 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.4170
+2025-04-30 22:05:07,825 - __main__ - INFO - Epoch 2/50 - Train Loss: 0.5401, Train Acc: 0.7271, Val Loss: 0.4445, Val Acc: 0.7489 - Time: 41.91s
+2025-04-30 22:05:08,178 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.7489
+2025-04-30 22:05:50,142 - __main__ - INFO - Epoch 3/50 - Train Loss: 0.4764, Train Acc: 0.7737, Val Loss: 0.4322, Val Acc: 0.7830 - Time: 41.96s
+2025-04-30 22:05:50,466 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.7830
+2025-04-30 22:06:31,840 - __main__ - INFO - Epoch 4/50 - Train Loss: 0.4156, Train Acc: 0.8025, Val Loss: 0.5871, Val Acc: 0.7574 - Time: 41.37s
+2025-04-30 22:07:13,527 - __main__ - INFO - Epoch 5/50 - Train Loss: 0.4064, Train Acc: 0.7976, Val Loss: 0.6998, Val Acc: 0.7872 - Time: 41.69s
+2025-04-30 22:07:13,854 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.7872
+2025-04-30 22:07:55,312 - __main__ - INFO - Epoch 6/50 - Train Loss: 0.3798, Train Acc: 0.8313, Val Loss: 0.4460, Val Acc: 0.8468 - Time: 41.46s
+2025-04-30 22:07:55,613 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.8468
+2025-04-30 22:08:37,025 - __main__ - INFO - Epoch 7/50 - Train Loss: 0.3507, Train Acc: 0.8361, Val Loss: 0.4699, Val Acc: 0.8340 - Time: 41.41s
+2025-04-30 22:09:18,635 - __main__ - INFO - Epoch 8/50 - Train Loss: 0.3469, Train Acc: 0.8502, Val Loss: 0.6009, Val Acc: 0.7745 - Time: 41.61s
+2025-04-30 22:09:59,902 - __main__ - INFO - Epoch 9/50 - Train Loss: 0.3095, Train Acc: 0.8665, Val Loss: 0.2889, Val Acc: 0.8553 - Time: 41.27s
+2025-04-30 22:10:00,199 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.8553
+2025-04-30 22:10:41,489 - __main__ - INFO - Epoch 10/50 - Train Loss: 0.2880, Train Acc: 0.8790, Val Loss: 0.4998, Val Acc: 0.8383 - Time: 41.29s
+2025-04-30 22:11:22,937 - __main__ - INFO - Epoch 11/50 - Train Loss: 0.2940, Train Acc: 0.8730, Val Loss: 0.3552, Val Acc: 0.8596 - Time: 41.45s
+2025-04-30 22:11:23,257 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.8596
+2025-04-30 22:12:04,923 - __main__ - INFO - Epoch 12/50 - Train Loss: 0.2556, Train Acc: 0.8991, Val Loss: 0.2887, Val Acc: 0.8511 - Time: 41.66s
+2025-04-30 22:12:46,426 - __main__ - INFO - Epoch 13/50 - Train Loss: 0.2511, Train Acc: 0.8947, Val Loss: 0.5274, Val Acc: 0.8383 - Time: 41.50s
+2025-04-30 22:13:27,949 - __main__ - INFO - Epoch 14/50 - Train Loss: 0.2340, Train Acc: 0.8996, Val Loss: 0.2637, Val Acc: 0.9149 - Time: 41.52s
+2025-04-30 22:13:28,261 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.9149
+2025-04-30 22:14:09,761 - __main__ - INFO - Epoch 15/50 - Train Loss: 0.2292, Train Acc: 0.9088, Val Loss: 0.2408, Val Acc: 0.9106 - Time: 41.50s
+2025-04-30 22:14:51,200 - __main__ - INFO - Epoch 16/50 - Train Loss: 0.2279, Train Acc: 0.9088, Val Loss: 0.3278, Val Acc: 0.8596 - Time: 41.44s
+2025-04-30 22:15:32,572 - __main__ - INFO - Epoch 17/50 - Train Loss: 0.2215, Train Acc: 0.9094, Val Loss: 0.4945, Val Acc: 0.8553 - Time: 41.37s
+2025-04-30 22:16:14,019 - __main__ - INFO - Epoch 18/50 - Train Loss: 0.1908, Train Acc: 0.9262, Val Loss: 0.3998, Val Acc: 0.8681 - Time: 41.45s
+2025-04-30 22:16:55,330 - __main__ - INFO - Epoch 19/50 - Train Loss: 0.1874, Train Acc: 0.9305, Val Loss: 0.2962, Val Acc: 0.8979 - Time: 41.31s
+2025-04-30 22:17:37,017 - __main__ - INFO - Epoch 20/50 - Train Loss: 0.1938, Train Acc: 0.9230, Val Loss: 0.1878, Val Acc: 0.9106 - Time: 41.69s
+2025-04-30 22:18:18,438 - __main__ - INFO - Epoch 21/50 - Train Loss: 0.1771, Train Acc: 0.9230, Val Loss: 0.2234, Val Acc: 0.9021 - Time: 41.42s
+2025-04-30 22:18:59,882 - __main__ - INFO - Epoch 22/50 - Train Loss: 0.1589, Train Acc: 0.9398, Val Loss: 0.4503, Val Acc: 0.8426 - Time: 41.44s
+2025-04-30 22:19:41,252 - __main__ - INFO - Epoch 23/50 - Train Loss: 0.1527, Train Acc: 0.9409, Val Loss: 0.3527, Val Acc: 0.9021 - Time: 41.37s
+2025-04-30 22:20:22,636 - __main__ - INFO - Epoch 24/50 - Train Loss: 0.1565, Train Acc: 0.9403, Val Loss: 0.3807, Val Acc: 0.8894 - Time: 41.38s
+2025-04-30 22:21:04,023 - __main__ - INFO - Epoch 25/50 - Train Loss: 0.1396, Train Acc: 0.9528, Val Loss: 0.4928, Val Acc: 0.8851 - Time: 41.39s
+2025-04-30 22:21:45,295 - __main__ - INFO - Epoch 26/50 - Train Loss: 0.1755, Train Acc: 0.9322, Val Loss: 0.4154, Val Acc: 0.8553 - Time: 41.27s
+2025-04-30 22:22:26,581 - __main__ - INFO - Epoch 27/50 - Train Loss: 0.1060, Train Acc: 0.9598, Val Loss: 0.1870, Val Acc: 0.9404 - Time: 41.28s
+2025-04-30 22:22:26,880 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.9404
+2025-04-30 22:23:08,208 - __main__ - INFO - Epoch 28/50 - Train Loss: 0.0788, Train Acc: 0.9718, Val Loss: 0.2204, Val Acc: 0.9234 - Time: 41.33s
+2025-04-30 22:23:49,572 - __main__ - INFO - Epoch 29/50 - Train Loss: 0.0673, Train Acc: 0.9740, Val Loss: 0.2120, Val Acc: 0.9489 - Time: 41.36s
+2025-04-30 22:23:49,851 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.9489
+2025-04-30 22:24:31,068 - __main__ - INFO - Epoch 30/50 - Train Loss: 0.0972, Train Acc: 0.9609, Val Loss: 0.2389, Val Acc: 0.9021 - Time: 41.22s
+2025-04-30 22:25:12,377 - __main__ - INFO - Epoch 31/50 - Train Loss: 0.0701, Train Acc: 0.9756, Val Loss: 0.2393, Val Acc: 0.9021 - Time: 41.31s
+2025-04-30 22:25:53,691 - __main__ - INFO - Epoch 32/50 - Train Loss: 0.0819, Train Acc: 0.9691, Val Loss: 0.2704, Val Acc: 0.9021 - Time: 41.31s
+2025-04-30 22:26:34,909 - __main__ - INFO - Epoch 33/50 - Train Loss: 0.0698, Train Acc: 0.9745, Val Loss: 0.0978, Val Acc: 0.9702 - Time: 41.22s
+2025-04-30 22:26:35,201 - __main__ - INFO - Best model saved to models_pytorch\stroke_resnet50_best.pkl with validation accuracy: 0.9702
+2025-04-30 22:27:16,526 - __main__ - INFO - Epoch 34/50 - Train Loss: 0.0765, Train Acc: 0.9729, Val Loss: 0.2016, Val Acc: 0.9277 - Time: 41.32s
+2025-04-30 22:27:57,841 - __main__ - INFO - Epoch 35/50 - Train Loss: 0.0796, Train Acc: 0.9723, Val Loss: 0.1341, Val Acc: 0.9660 - Time: 41.31s
+2025-04-30 22:28:39,101 - __main__ - INFO - Epoch 36/50 - Train Loss: 0.0383, Train Acc: 0.9864, Val Loss: 0.1394, Val Acc: 0.9660 - Time: 41.26s
+2025-04-30 22:29:20,426 - __main__ - INFO - Epoch 37/50 - Train Loss: 0.0343, Train Acc: 0.9891, Val Loss: 0.1548, Val Acc: 0.9447 - Time: 41.32s
+2025-04-30 22:30:01,670 - __main__ - INFO - Epoch 38/50 - Train Loss: 0.0589, Train Acc: 0.9816, Val Loss: 0.2155, Val Acc: 0.9149 - Time: 41.24s
+2025-04-30 22:30:43,108 - __main__ - INFO - Epoch 39/50 - Train Loss: 0.0620, Train Acc: 0.9761, Val Loss: 0.3050, Val Acc: 0.9106 - Time: 41.44s
+2025-04-30 22:31:24,520 - __main__ - INFO - Epoch 40/50 - Train Loss: 0.0414, Train Acc: 0.9864, Val Loss: 0.0978, Val Acc: 0.9574 - Time: 41.41s
+2025-04-30 22:32:05,777 - __main__ - INFO - Epoch 41/50 - Train Loss: 0.0384, Train Acc: 0.9881, Val Loss: 0.1218, Val Acc: 0.9532 - Time: 41.26s
+2025-04-30 22:32:47,078 - __main__ - INFO - Epoch 42/50 - Train Loss: 0.0271, Train Acc: 0.9897, Val Loss: 0.1139, Val Acc: 0.9574 - Time: 41.30s
+2025-04-30 22:33:28,305 - __main__ - INFO - Epoch 43/50 - Train Loss: 0.0418, Train Acc: 0.9859, Val Loss: 0.1056, Val Acc: 0.9617 - Time: 41.23s
+2025-04-30 22:34:09,593 - __main__ - INFO - Epoch 44/50 - Train Loss: 0.0387, Train Acc: 0.9843, Val Loss: 0.0960, Val Acc: 0.9489 - Time: 41.29s
+2025-04-30 22:34:50,953 - __main__ - INFO - Epoch 45/50 - Train Loss: 0.0328, Train Acc: 0.9881, Val Loss: 0.1173, Val Acc: 0.9574 - Time: 41.36s
+2025-04-30 22:35:32,078 - __main__ - INFO - Epoch 46/50 - Train Loss: 0.0235, Train Acc: 0.9924, Val Loss: 0.1211, Val Acc: 0.9702 - Time: 41.12s
+2025-04-30 22:36:13,361 - __main__ - INFO - Epoch 47/50 - Train Loss: 0.0166, Train Acc: 0.9935, Val Loss: 0.1765, Val Acc: 0.9532 - Time: 41.28s
+2025-04-30 22:36:54,603 - __main__ - INFO - Epoch 48/50 - Train Loss: 0.0308, Train Acc: 0.9875, Val Loss: 0.1550, Val Acc: 0.9660 - Time: 41.24s
+2025-04-30 22:37:35,792 - __main__ - INFO - Epoch 49/50 - Train Loss: 0.0412, Train Acc: 0.9853, Val Loss: 0.1481, Val Acc: 0.9617 - Time: 41.19s
+2025-04-30 22:38:17,314 - __main__ - INFO - Epoch 50/50 - Train Loss: 0.0208, Train Acc: 0.9929, Val Loss: 0.1177, Val Acc: 0.9702 - Time: 41.52s
+2025-04-30 22:38:17,315 - __main__ - INFO - Training completed in 2073.12s
+2025-04-30 22:38:17,617 - __main__ - INFO - Final model saved to models_pytorch\stroke_resnet50.pkl
+2025-04-30 22:38:17,619 - __main__ - INFO - Training history saved to models_pytorch\resnet50_history.pkl
+2025-04-30 22:38:18,278 - __main__ - INFO - Training EFFICIENTNET model...
+2025-04-30 22:38:18,279 - __main__ - INFO - Creating efficientnet model...
+2025-04-30 22:38:18,505 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b3.ra2_in1k)
+2025-04-30 22:38:19,781 - timm.models._hub - INFO - [timm/efficientnet_b3.ra2_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-04-30 22:38:19,972 - __main__ - INFO - Training samples: 1843
+2025-04-30 22:38:19,978 - __main__ - INFO - Validation samples: 235
+2025-04-30 22:39:08,329 - __main__ - INFO - Epoch 1/40 - Train Loss: 0.6319, Train Acc: 0.6354, Val Loss: 0.5496, Val Acc: 0.7064 - Time: 48.35s
+2025-04-30 22:39:08,596 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.7064
+2025-04-30 22:39:56,182 - __main__ - INFO - Epoch 2/40 - Train Loss: 0.5309, Train Acc: 0.7352, Val Loss: 0.4675, Val Acc: 0.8085 - Time: 47.58s
+2025-04-30 22:39:56,450 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8085
+2025-04-30 22:40:43,852 - __main__ - INFO - Epoch 3/40 - Train Loss: 0.4715, Train Acc: 0.7765, Val Loss: 0.3573, Val Acc: 0.8511 - Time: 47.40s
+2025-04-30 22:40:44,104 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8511
+2025-04-30 22:41:31,496 - __main__ - INFO - Epoch 4/40 - Train Loss: 0.4053, Train Acc: 0.8085, Val Loss: 0.3627, Val Acc: 0.8383 - Time: 47.39s
+2025-04-30 22:42:18,980 - __main__ - INFO - Epoch 5/40 - Train Loss: 0.3511, Train Acc: 0.8416, Val Loss: 0.3337, Val Acc: 0.8511 - Time: 47.48s
+2025-04-30 22:43:06,679 - __main__ - INFO - Epoch 6/40 - Train Loss: 0.3141, Train Acc: 0.8633, Val Loss: 0.2989, Val Acc: 0.8553 - Time: 47.70s
+2025-04-30 22:43:06,948 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8553
+2025-04-30 22:43:54,157 - __main__ - INFO - Epoch 7/40 - Train Loss: 0.2923, Train Acc: 0.8752, Val Loss: 0.3118, Val Acc: 0.8553 - Time: 47.21s
+2025-04-30 22:44:41,339 - __main__ - INFO - Epoch 8/40 - Train Loss: 0.2203, Train Acc: 0.9148, Val Loss: 0.3029, Val Acc: 0.8809 - Time: 47.18s
+2025-04-30 22:44:41,589 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.8809
+2025-04-30 22:45:28,859 - __main__ - INFO - Epoch 9/40 - Train Loss: 0.2365, Train Acc: 0.9067, Val Loss: 0.3816, Val Acc: 0.8170 - Time: 47.27s
+2025-04-30 22:46:16,188 - __main__ - INFO - Epoch 10/40 - Train Loss: 0.2070, Train Acc: 0.9197, Val Loss: 0.3176, Val Acc: 0.8553 - Time: 47.33s
+2025-04-30 22:47:03,432 - __main__ - INFO - Epoch 11/40 - Train Loss: 0.1860, Train Acc: 0.9235, Val Loss: 0.2597, Val Acc: 0.9021 - Time: 47.24s
+2025-04-30 22:47:03,689 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9021
+2025-04-30 22:47:50,960 - __main__ - INFO - Epoch 12/40 - Train Loss: 0.1670, Train Acc: 0.9365, Val Loss: 0.2413, Val Acc: 0.9064 - Time: 47.27s
+2025-04-30 22:47:51,201 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9064
+2025-04-30 22:48:39,774 - __main__ - INFO - Epoch 13/40 - Train Loss: 0.1269, Train Acc: 0.9544, Val Loss: 0.2591, Val Acc: 0.9149 - Time: 48.57s
+2025-04-30 22:48:40,028 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9149
+2025-04-30 22:49:27,679 - __main__ - INFO - Epoch 14/40 - Train Loss: 0.1350, Train Acc: 0.9533, Val Loss: 0.2177, Val Acc: 0.9021 - Time: 47.65s
+2025-04-30 22:50:15,321 - __main__ - INFO - Epoch 15/40 - Train Loss: 0.1293, Train Acc: 0.9479, Val Loss: 0.1454, Val Acc: 0.9362 - Time: 47.64s
+2025-04-30 22:50:15,574 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9362
+2025-04-30 22:51:03,209 - __main__ - INFO - Epoch 16/40 - Train Loss: 0.1123, Train Acc: 0.9582, Val Loss: 0.1844, Val Acc: 0.9362 - Time: 47.63s
+2025-04-30 22:51:50,860 - __main__ - INFO - Epoch 17/40 - Train Loss: 0.0940, Train Acc: 0.9631, Val Loss: 0.3849, Val Acc: 0.8511 - Time: 47.65s
+2025-04-30 22:52:38,664 - __main__ - INFO - Epoch 18/40 - Train Loss: 0.1051, Train Acc: 0.9642, Val Loss: 0.1851, Val Acc: 0.9106 - Time: 47.80s
+2025-04-30 22:53:26,543 - __main__ - INFO - Epoch 19/40 - Train Loss: 0.0777, Train Acc: 0.9712, Val Loss: 0.1935, Val Acc: 0.9319 - Time: 47.88s
+2025-04-30 22:54:14,214 - __main__ - INFO - Epoch 20/40 - Train Loss: 0.0908, Train Acc: 0.9674, Val Loss: 0.2002, Val Acc: 0.9191 - Time: 47.67s
+2025-04-30 22:55:02,016 - __main__ - INFO - Epoch 21/40 - Train Loss: 0.0620, Train Acc: 0.9783, Val Loss: 0.1612, Val Acc: 0.9404 - Time: 47.80s
+2025-04-30 22:55:02,282 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9404
+2025-04-30 22:55:50,312 - __main__ - INFO - Epoch 22/40 - Train Loss: 0.0665, Train Acc: 0.9788, Val Loss: 0.1544, Val Acc: 0.9362 - Time: 48.03s
+2025-04-30 22:56:38,049 - __main__ - INFO - Epoch 23/40 - Train Loss: 0.0644, Train Acc: 0.9794, Val Loss: 0.2323, Val Acc: 0.9191 - Time: 47.74s
+2025-04-30 22:57:26,072 - __main__ - INFO - Epoch 24/40 - Train Loss: 0.0542, Train Acc: 0.9832, Val Loss: 0.1512, Val Acc: 0.9404 - Time: 48.02s
+2025-04-30 22:58:14,251 - __main__ - INFO - Epoch 25/40 - Train Loss: 0.0492, Train Acc: 0.9832, Val Loss: 0.1129, Val Acc: 0.9489 - Time: 48.18s
+2025-04-30 22:58:14,641 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9489
+2025-04-30 22:59:02,562 - __main__ - INFO - Epoch 26/40 - Train Loss: 0.0442, Train Acc: 0.9843, Val Loss: 0.1255, Val Acc: 0.9447 - Time: 47.92s
+2025-04-30 22:59:50,374 - __main__ - INFO - Epoch 27/40 - Train Loss: 0.0214, Train Acc: 0.9924, Val Loss: 0.1477, Val Acc: 0.9532 - Time: 47.81s
+2025-04-30 22:59:50,630 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9532
+2025-04-30 23:00:38,531 - __main__ - INFO - Epoch 28/40 - Train Loss: 0.0331, Train Acc: 0.9919, Val Loss: 0.1427, Val Acc: 0.9574 - Time: 47.90s
+2025-04-30 23:00:38,782 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9574
+2025-04-30 23:01:26,647 - __main__ - INFO - Epoch 29/40 - Train Loss: 0.0349, Train Acc: 0.9875, Val Loss: 0.1026, Val Acc: 0.9574 - Time: 47.86s
+2025-04-30 23:02:14,604 - __main__ - INFO - Epoch 30/40 - Train Loss: 0.0173, Train Acc: 0.9962, Val Loss: 0.1046, Val Acc: 0.9617 - Time: 47.96s
+2025-04-30 23:02:14,870 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9617
+2025-04-30 23:03:03,253 - __main__ - INFO - Epoch 31/40 - Train Loss: 0.0314, Train Acc: 0.9929, Val Loss: 0.0782, Val Acc: 0.9617 - Time: 48.38s
+2025-04-30 23:03:51,356 - __main__ - INFO - Epoch 32/40 - Train Loss: 0.0286, Train Acc: 0.9908, Val Loss: 0.0971, Val Acc: 0.9660 - Time: 48.10s
+2025-04-30 23:03:51,612 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9660
+2025-04-30 23:04:39,775 - __main__ - INFO - Epoch 33/40 - Train Loss: 0.0367, Train Acc: 0.9891, Val Loss: 0.3075, Val Acc: 0.9277 - Time: 48.16s
+2025-04-30 23:05:27,994 - __main__ - INFO - Epoch 34/40 - Train Loss: 0.0369, Train Acc: 0.9837, Val Loss: 0.1510, Val Acc: 0.9532 - Time: 48.22s
+2025-04-30 23:06:15,964 - __main__ - INFO - Epoch 35/40 - Train Loss: 0.0342, Train Acc: 0.9859, Val Loss: 0.1324, Val Acc: 0.9489 - Time: 47.97s
+2025-04-30 23:07:03,914 - __main__ - INFO - Epoch 36/40 - Train Loss: 0.0311, Train Acc: 0.9908, Val Loss: 0.1000, Val Acc: 0.9660 - Time: 47.95s
+2025-04-30 23:07:51,829 - __main__ - INFO - Epoch 37/40 - Train Loss: 0.0218, Train Acc: 0.9913, Val Loss: 0.2750, Val Acc: 0.9447 - Time: 47.92s
+2025-04-30 23:08:39,703 - __main__ - INFO - Epoch 38/40 - Train Loss: 0.0231, Train Acc: 0.9924, Val Loss: 0.1378, Val Acc: 0.9617 - Time: 47.87s
+2025-04-30 23:09:27,481 - __main__ - INFO - Epoch 39/40 - Train Loss: 0.0256, Train Acc: 0.9940, Val Loss: 0.2016, Val Acc: 0.9489 - Time: 47.78s
+2025-04-30 23:10:15,403 - __main__ - INFO - Epoch 40/40 - Train Loss: 0.0108, Train Acc: 0.9967, Val Loss: 0.0684, Val Acc: 0.9702 - Time: 47.92s
+2025-04-30 23:10:15,680 - __main__ - INFO - Best model saved to models_pytorch\stroke_efficientnet_best.pkl with validation accuracy: 0.9702
+2025-04-30 23:10:15,680 - __main__ - INFO - Training completed in 1915.70s
+2025-04-30 23:10:15,916 - __main__ - INFO - Final model saved to models_pytorch\stroke_efficientnet.pkl
+2025-04-30 23:10:15,917 - __main__ - INFO - Training history saved to models_pytorch\efficientnet_history.pkl
+2025-04-30 23:10:16,633 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-30 23:10:16,895 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-30 23:10:16,899 - __main__ - INFO - Test samples: 437
+2025-04-30 23:10:22,393 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-30 23:10:22,620 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-30 23:10:22,625 - __main__ - INFO - Test samples: 437
+2025-04-30 23:10:27,634 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-30 23:10:27,796 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-30 23:10:27,800 - __main__ - INFO - Test samples: 437
+2025-04-30 23:10:36,763 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-30 23:10:36,916 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-30 23:10:36,916 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-30 23:10:37,120 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-30 23:10:37,120 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-30 23:10:37,270 - __main__ - INFO - Successfully loaded efficientnet model
+2025-04-30 23:10:37,570 - __main__ - INFO - Loading densenet121 model from models_pytorch\stroke_densenet121.pkl
+2025-04-30 23:10:37,730 - __main__ - INFO - Successfully loaded densenet121 model
+2025-04-30 23:10:37,731 - __main__ - INFO - Loading resnet50 model from models_pytorch\stroke_resnet50.pkl
+2025-04-30 23:10:37,923 - __main__ - INFO - Successfully loaded resnet50 model
+2025-04-30 23:10:37,930 - __main__ - INFO - Loading efficientnet model from models_pytorch\stroke_efficientnet.pkl
+2025-04-30 23:10:38,083 - __main__ - INFO - Successfully loaded efficientnet model

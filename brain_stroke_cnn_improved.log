@@ -1,0 +1,174 @@
+2025-04-15 16:35:33,693 - __main__ - INFO - Starting brain stroke classification with transfer learning
+2025-04-15 16:35:33,695 - __main__ - INFO - Loading datasets...
+2025-04-15 16:35:33,861 - __main__ - INFO - Classes found: {'Normal': 0, 'Stroke': 1}
+2025-04-15 16:35:33,861 - __main__ - INFO - Training samples: 1843
+2025-04-15 16:35:33,861 - __main__ - INFO - Validation samples: 235
+2025-04-15 16:35:33,861 - __main__ - INFO - Test samples: 437
+2025-04-15 16:35:33,861 - __main__ - INFO - Visualizing data distribution...
+2025-04-15 16:35:34,455 - __main__ - INFO - Displaying 25 sample images...
+2025-04-15 16:35:37,305 - __main__ - INFO - Visualizing data augmentations...
+2025-04-15 16:35:38,445 - __main__ - INFO - Creating densenet121 model...
+2025-04-15 16:35:38,815 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-15 16:35:39,058 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-04-15 16:35:42,846 - __main__ - INFO - Training DenseNet121 model...
+2025-04-15 16:42:19,305 - __main__ - INFO - Starting brain stroke classification with transfer learning
+2025-04-15 16:42:19,307 - __main__ - INFO - Loading datasets...
+2025-04-15 16:42:19,447 - __main__ - INFO - Classes found: {'Normal': 0, 'Stroke': 1}
+2025-04-15 16:42:19,447 - __main__ - INFO - Training samples: 1843
+2025-04-15 16:42:19,447 - __main__ - INFO - Validation samples: 235
+2025-04-15 16:42:19,461 - __main__ - INFO - Test samples: 437
+2025-04-15 16:42:19,463 - __main__ - INFO - Visualizing data distribution...
+2025-04-15 16:42:19,977 - __main__ - INFO - Displaying 25 sample images...
+2025-04-15 16:42:22,418 - __main__ - INFO - Visualizing data augmentations...
+2025-04-15 16:42:23,553 - __main__ - INFO - Creating improved densenet121 model...
+2025-04-15 16:44:47,494 - __main__ - INFO - Starting brain stroke classification with transfer learning
+2025-04-15 16:44:47,495 - __main__ - INFO - Loading datasets...
+2025-04-15 16:44:47,671 - __main__ - INFO - Classes found: {'Normal': 0, 'Stroke': 1}
+2025-04-15 16:44:47,672 - __main__ - INFO - Training samples: 1843
+2025-04-15 16:44:47,673 - __main__ - INFO - Validation samples: 235
+2025-04-15 16:44:47,673 - __main__ - INFO - Test samples: 437
+2025-04-15 16:44:47,673 - __main__ - INFO - Visualizing data distribution...
+2025-04-15 16:44:48,199 - __main__ - INFO - Displaying 25 sample images...
+2025-04-15 16:44:50,700 - __main__ - INFO - Visualizing data augmentations...
+2025-04-15 16:44:52,170 - __main__ - INFO - Creating improved densenet121 model...
+2025-04-15 16:44:57,190 - __main__ - INFO - Training DenseNet121 with improved two-phase approach...
+2025-04-15 16:44:57,194 - __main__ - INFO - Class weights: {0: 0.8204015192620728, 1: 1.4155181768855127}
+2025-04-15 16:44:57,194 - __main__ - INFO - Phase 1: Initial training with frozen base model...
+2025-04-15 16:44:59,432 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-04-15 16:45:00,745 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-15 20:36:04,673 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2025-04-15 20:36:04,713 - __main__ - INFO - Starting improved brain stroke classification with transfer learning
+2025-04-15 20:36:04,727 - __main__ - INFO - Loading datasets using tf.keras.utils.image_dataset_from_directory...
+2025-04-15 20:53:51,600 - __main__ - INFO - Starting improved brain stroke classification with transfer learning
+2025-04-15 20:53:51,600 - __main__ - INFO - Loading datasets using tf.keras.utils.image_dataset_from_directory...
+2025-04-15 20:56:58,073 - __main__ - INFO - Starting improved brain stroke classification with transfer learning
+2025-04-15 20:56:58,073 - __main__ - INFO - Verifying dataset paths...
+2025-04-15 20:56:58,073 - __main__ - INFO - Found dataset at: Brain_Stroke_CT_SCAN_image
+2025-04-15 20:56:58,089 - __main__ - INFO - Training path exists: Brain_Stroke_CT_SCAN_image\Train
+2025-04-15 20:56:58,090 - __main__ - INFO -   Classes found: ['Normal', 'Stroke']
+2025-04-15 20:56:58,090 - __main__ - INFO - Testing path exists: Brain_Stroke_CT_SCAN_image\Test
+2025-04-15 20:56:58,090 - __main__ - INFO -   Classes found: ['Normal', 'Stroke']
+2025-04-15 20:56:58,090 - __main__ - INFO - Validation path exists: Brain_Stroke_CT_SCAN_image\Validation
+2025-04-15 20:56:58,090 - __main__ - INFO -   Classes found: ['Normal', 'Stroke']
+2025-04-15 20:56:58,090 - __main__ - INFO - Attempting to load datasets manually...
+2025-04-15 20:56:58,090 - __main__ - INFO - Loading datasets manually to avoid encoding issues...
+2025-04-15 20:56:58,090 - __main__ - INFO - Found classes: ['Normal', 'Stroke']
+2025-04-15 20:56:58,090 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Train\Normal
+2025-04-15 20:57:03,621 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Train\Stroke
+2025-04-15 20:57:10,008 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Validation\Normal
+2025-04-15 20:57:10,974 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Validation\Stroke
+2025-04-15 20:57:11,495 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Test\Normal
+2025-04-15 20:57:12,880 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Test\Stroke
+2025-04-15 20:57:13,687 - __main__ - INFO - Training set: 1843 images
+2025-04-15 20:57:13,687 - __main__ - INFO - Validation set: 235 images
+2025-04-15 20:57:13,687 - __main__ - INFO - Test set: 437 images
+2025-04-15 20:57:14,757 - __main__ - ERROR - Manual dataset loading failed: Unable to allocate 2.14 GiB for an array with shape (1843, 228, 228, 3) and data type float64
+2025-04-15 20:57:14,757 - __main__ - INFO - Trying original dataset loading method...
+2025-04-15 20:57:14,757 - __main__ - INFO - Loading datasets using tf.keras.utils.image_dataset_from_directory...
+2025-04-15 20:57:14,760 - __main__ - ERROR - Both dataset loading methods failed. Error: 'utf-8' codec can't decode byte 0xe0 in position 8: invalid continuation byte
+2025-04-15 20:57:14,761 - __main__ - ERROR - Cannot proceed without valid datasets. Exiting.
+2025-04-15 20:57:35,709 - __main__ - INFO - Starting improved brain stroke classification with transfer learning
+2025-04-15 20:57:35,709 - __main__ - INFO - Verifying dataset paths...
+2025-04-15 20:57:35,709 - __main__ - INFO - Found dataset at: Brain_Stroke_CT_SCAN_image
+2025-04-15 20:57:35,709 - __main__ - INFO - Training path exists: Brain_Stroke_CT_SCAN_image\Train
+2025-04-15 20:57:35,709 - __main__ - INFO -   Classes found: ['Normal', 'Stroke']
+2025-04-15 20:57:35,709 - __main__ - INFO - Testing path exists: Brain_Stroke_CT_SCAN_image\Test
+2025-04-15 20:57:35,709 - __main__ - INFO -   Classes found: ['Normal', 'Stroke']
+2025-04-15 20:57:35,709 - __main__ - INFO - Validation path exists: Brain_Stroke_CT_SCAN_image\Validation
+2025-04-15 20:57:35,724 - __main__ - INFO -   Classes found: ['Normal', 'Stroke']
+2025-04-15 20:57:35,725 - __main__ - INFO - Attempting to load datasets manually...
+2025-04-15 20:57:35,727 - __main__ - INFO - Loading datasets manually to avoid encoding issues...
+2025-04-15 20:57:35,728 - __main__ - INFO - Found classes: ['Normal', 'Stroke']
+2025-04-15 20:57:35,729 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Train\Normal
+2025-04-15 20:57:40,565 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Train\Stroke
+2025-04-15 20:57:45,028 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Validation\Normal
+2025-04-15 20:57:45,908 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Validation\Stroke
+2025-04-15 20:57:46,446 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Test\Normal
+2025-04-15 20:57:48,020 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Test\Stroke
+2025-04-15 20:57:48,997 - __main__ - INFO - Training set: 1843 images
+2025-04-15 20:57:49,000 - __main__ - INFO - Validation set: 235 images
+2025-04-15 20:57:49,001 - __main__ - INFO - Test set: 437 images
+2025-04-15 20:57:52,376 - __main__ - INFO - Manual dataset loading successful!
+2025-04-15 20:57:52,376 - __main__ - INFO - Class Names: ['Normal', 'Stroke']
+2025-04-15 20:57:52,376 - __main__ - INFO - Creating improved densenet121 model...
+2025-04-15 20:57:52,610 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-04-15 20:57:57,382 - __main__ - INFO - Training DenseNet121 model...
+2025-04-15 20:58:00,641 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-04-15 20:58:09,483 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-15 20:59:18,267 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2025-04-15 20:59:18,368 - __main__ - INFO - Starting improved brain stroke classification with transfer learning
+2025-04-15 20:59:18,370 - __main__ - INFO - Verifying dataset paths...
+2025-04-15 20:59:18,371 - __main__ - INFO - Found dataset at: Brain_Stroke_CT_SCAN_image
+2025-04-15 20:59:18,372 - __main__ - INFO - Training path exists: Brain_Stroke_CT_SCAN_image\Train
+2025-04-15 20:59:18,374 - __main__ - INFO -   Classes found: ['Normal', 'Stroke']
+2025-04-15 20:59:18,375 - __main__ - INFO - Testing path exists: Brain_Stroke_CT_SCAN_image\Test
+2025-04-15 20:59:18,376 - __main__ - INFO -   Classes found: ['Normal', 'Stroke']
+2025-04-15 20:59:18,377 - __main__ - INFO - Validation path exists: Brain_Stroke_CT_SCAN_image\Validation
+2025-04-15 20:59:18,379 - __main__ - INFO -   Classes found: ['Normal', 'Stroke']
+2025-04-15 20:59:18,381 - __main__ - INFO - Attempting to load datasets manually...
+2025-04-15 20:59:18,382 - __main__ - INFO - Loading datasets manually to avoid encoding issues...
+2025-04-15 20:59:18,383 - __main__ - INFO - Found classes: ['Normal', 'Stroke']
+2025-04-15 20:59:18,384 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Train\Normal
+2025-04-15 20:59:24,164 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Train\Stroke
+2025-04-15 20:59:28,835 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Validation\Normal
+2025-04-15 20:59:29,814 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Validation\Stroke
+2025-04-15 20:59:30,440 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Test\Normal
+2025-04-15 20:59:32,398 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Test\Stroke
+2025-04-15 20:59:33,248 - __main__ - INFO - Training set: 1843 images
+2025-04-15 20:59:33,248 - __main__ - INFO - Validation set: 235 images
+2025-04-15 20:59:33,248 - __main__ - INFO - Test set: 437 images
+2025-04-15 20:59:34,999 - __main__ - INFO - Manual dataset loading successful!
+2025-04-15 20:59:34,999 - __main__ - INFO - Class Names: ['Normal', 'Stroke']
+2025-04-15 20:59:34,999 - __main__ - INFO - Creating improved densenet121 model...
+2025-04-15 20:59:35,113 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-04-15 20:59:39,447 - __main__ - INFO - Training DenseNet121 model...
+2025-04-15 20:59:41,972 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-04-15 20:59:59,632 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2025-04-15 20:59:59,681 - __main__ - INFO - Starting improved brain stroke classification with transfer learning
+2025-04-15 20:59:59,683 - __main__ - INFO - Verifying dataset paths...
+2025-04-15 20:59:59,684 - __main__ - INFO - Found dataset at: Brain_Stroke_CT_SCAN_image
+2025-04-15 20:59:59,685 - __main__ - INFO - Training path exists: Brain_Stroke_CT_SCAN_image\Train
+2025-04-15 20:59:59,686 - __main__ - INFO -   Classes found: ['Normal', 'Stroke']
+2025-04-15 20:59:59,687 - __main__ - INFO - Testing path exists: Brain_Stroke_CT_SCAN_image\Test
+2025-04-15 20:59:59,688 - __main__ - INFO -   Classes found: ['Normal', 'Stroke']
+2025-04-15 20:59:59,689 - __main__ - INFO - Validation path exists: Brain_Stroke_CT_SCAN_image\Validation
+2025-04-15 20:59:59,691 - __main__ - INFO -   Classes found: ['Normal', 'Stroke']
+2025-04-15 20:59:59,692 - __main__ - INFO - Attempting to load datasets manually...
+2025-04-15 20:59:59,693 - __main__ - INFO - Loading datasets manually to avoid encoding issues...
+2025-04-15 20:59:59,694 - __main__ - INFO - Found classes: ['Normal', 'Stroke']
+2025-04-15 20:59:59,695 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Train\Normal
+2025-04-15 21:00:04,821 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Train\Stroke
+2025-04-15 21:00:09,245 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Validation\Normal
+2025-04-15 21:00:09,984 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Validation\Stroke
+2025-04-15 21:00:10,437 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Test\Normal
+2025-04-15 21:00:11,798 - __main__ - INFO - Loading images from Brain_Stroke_CT_SCAN_image\Test\Stroke
+2025-04-15 21:00:12,601 - __main__ - INFO - Training set: 1843 images
+2025-04-15 21:00:12,603 - __main__ - INFO - Validation set: 235 images
+2025-04-15 21:00:12,603 - __main__ - INFO - Test set: 437 images
+2025-04-15 21:00:14,482 - __main__ - INFO - Manual dataset loading successful!
+2025-04-15 21:00:14,482 - __main__ - INFO - Class Names: ['Normal', 'Stroke']
+2025-04-15 21:00:14,482 - __main__ - INFO - Creating improved densenet121 model...
+2025-04-15 21:00:14,663 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-04-15 21:00:18,999 - __main__ - INFO - Training DenseNet121 model...
+2025-04-15 21:00:21,501 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-04-15 21:00:30,432 - tensorflow - WARNING - From C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-04-15 21:27:25,505 - __main__ - INFO - Plotting training history for DenseNet121...
+2025-04-15 21:27:26,453 - __main__ - INFO - Evaluating DenseNet121 model...
+2025-04-15 21:27:35,683 - __main__ - INFO - DenseNet121 Test Results: {'loss': 37.44468307495117, 'accuracy': 0.29748284816741943, 'precision': 0.29748284816741943, 'recall': 1.0}
+2025-04-15 21:27:50,549 - __main__ - INFO - Creating improved resnet50 model...
+2025-04-15 21:27:53,049 - __main__ - INFO - Training ResNet50 model...
